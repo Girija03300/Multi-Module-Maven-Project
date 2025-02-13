@@ -103,7 +103,8 @@ Project Root
 |--------logs                                   #logs
 |--------FooterLinks/EdgefooterLinks.csv        #Output csv file for DP2 test executed in Edge
 |--------FooterLinks/ChromefooterLinks.csv      #Output csv file for DP2 test executed in Chrome
-|----pom.xml                                    #Maven Dependencies 
+|----pom.xml                                    #Maven Dependencies
+|----Framework architecture diagram             #Architecture diagram
 ```
 
 ## Parallel Execution
