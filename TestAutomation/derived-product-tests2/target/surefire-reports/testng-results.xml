@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-13T17:49:48 IST" name="Suite" finished-at="2025-02-13T17:50:42 IST" duration-ms="54815">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.FootersRunner@3e694b3f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.FootersRunner@397fbdb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-13T17:49:48 IST" name="Derived Product Tests in Chrome" finished-at="2025-02-13T17:50:38 IST" duration-ms="50721">
+      <class name="com.java.runner.FootersRunner">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.FootersRunner@3e694b3f]" started-at="2025-02-13T17:49:48 IST" name="setup" finished-at="2025-02-13T17:49:56 IST" duration-ms="8635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.FootersRunner@3e694b3f]" started-at="2025-02-13T17:49:56 IST" name="setUpClass" finished-at="2025-02-13T17:49:57 IST" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@236e3f4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.FootersRunner@3e694b3f]" started-at="2025-02-13T17:49:57 IST" name="setCucumberTags" finished-at="2025-02-13T17:49:57 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@DP2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCucumberTags -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.FootersRunner@3e694b3f]" started-at="2025-02-13T17:49:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T17:50:38 IST" duration-ms="41060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify hyperlinks in the footer and check for duplicates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Footer Links Verification]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.FootersRunner@3e694b3f]" started-at="2025-02-13T17:50:38 IST" name="tearDownClass" finished-at="2025-02-13T17:50:38 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.java.runner.FootersRunner -->
+    </test> <!-- Derived Product Tests in Chrome -->
+    <test started-at="2025-02-13T17:49:48 IST" name="Derived Product Tests in Edge" finished-at="2025-02-13T17:50:42 IST" duration-ms="54643">
+      <class name="com.java.runner.FootersRunner">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.FootersRunner@397fbdb]" started-at="2025-02-13T17:49:48 IST" name="setup" finished-at="2025-02-13T17:49:56 IST" duration-ms="8498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.FootersRunner@397fbdb]" started-at="2025-02-13T17:49:56 IST" name="setUpClass" finished-at="2025-02-13T17:49:57 IST" duration-ms="837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cc1435c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.FootersRunner@397fbdb]" started-at="2025-02-13T17:49:57 IST" name="setCucumberTags" finished-at="2025-02-13T17:49:57 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@DP2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCucumberTags -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.FootersRunner@397fbdb]" started-at="2025-02-13T17:49:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T17:50:42 IST" duration-ms="45240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify hyperlinks in the footer and check for duplicates"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Footer Links Verification]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.FootersRunner@397fbdb]" started-at="2025-02-13T17:50:42 IST" name="tearDownClass" finished-at="2025-02-13T17:50:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.java.runner.FootersRunner -->
+      <class name="com.java.base.SetUp">
+        <test-method is-config="true" signature="initalizeFiles()[pri:0, instance:com.java.base.SetUp@61862a7f]" started-at="2025-02-13T17:49:48 IST" name="initalizeFiles" finished-at="2025-02-13T17:49:48 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeFiles -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.java.base.SetUp@61862a7f]" started-at="2025-02-13T17:50:44 IST" name="quitDriver" finished-at="2025-02-13T17:50:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.java.base.SetUp -->
+    </test> <!-- Derived Product Tests in Edge -->
+  </suite> <!-- Suite -->
+</testng-results>

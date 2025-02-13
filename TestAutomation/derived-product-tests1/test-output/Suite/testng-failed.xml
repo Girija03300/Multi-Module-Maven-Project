@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.java.reports.ExtentListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Derived Product 1 Tests in Edge(failed)">
+    <parameter name="cucumber.options" value="@DP1"/>
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.java.runner.SlidesRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="setCucumberTags"/>
+        </methods>
+      </class> <!-- com.java.runner.SlidesRunner -->
+    </classes>
+  </test> <!-- Derived Product 1 Tests in Edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

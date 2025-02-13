@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  Test Runner1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Runner1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 10 09:56:04 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>251 seconds (251620 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.java.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.java.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Extract all the Men Jackets details and save it to a text file", "Optional[CP Jacket Details Extraction]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=133.0.6943.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.0&apos;, revision: &apos;0a5b49d16f&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f11e73fdc6dadaacd2381125750f5f08, actions {actions=[org.openqa.selenium.interactions.Sequence@1ea3af1f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.60, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63289/devtoo..., se:cdpVersion: 133.0.6943.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f11e73fdc6dadaacd2381125750f5f08
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+	at com.java.utils.Utilities.moveToElement(Utilities.java:81)
+	at com.java.pages.CoreProductHomePage.selectMenuItem(CoreProductHomePage.java:51)
+	at com.java.stepDefinition.jacketDetails.i_go_to_the_shop_menu_and_select_category_as_men(jacketDetails.java:37)
+	at ✽.I go to the Shop menu and select category as Men(classpath:com/java/features/JacketDetails.feature:6)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1891683419", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1891683419'><pre>org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=133.0.6943.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.0&apos;, revision: &apos;0a5b49d16f&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f11e73fdc6dadaacd2381125750f5f08, actions {actions=[org.openqa.selenium.interactions.Sequence@1ea3af1f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.60, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63289/devtoo..., se:cdpVersion: 133.0.6943.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f11e73fdc6dadaacd2381125750f5f08
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+	at com.java.utils.Utilities.moveToElement(Utilities.java:81)
+	at com.java.pages.CoreProductHomePage.selectMenuItem(CoreProductHomePage.java:51)
+	at com.java.stepDefinition.jacketDetails.i_go_to_the_shop_menu_and_select_category_as_men(jacketDetails.java:37)
+	at ✽.I go to the Shop menu and select category as Men(classpath:com/java/features/JacketDetails.feature:6)
+</pre></div></td>
+<td>148</td>
+<td>com.java.runner.TestRunner@45b4c3a9</td></tr>
+<tr>
+<td title='com.java.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.java.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Video Feeds in the New & Features section", "Optional[Validate Video Feeds on CP Home Page]"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;element&quot; is null
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.java.utils.Utilities.waitForElementToLoad(Utilities.java:49)
+	at com.java.utils.Utilities.scrollTo(Utilities.java:85)
+	at com.java.pages.CoreProductNewsPage.getTotalVideoFeeds(CoreProductNewsPage.java:35)
+	at com.java.stepDefinition.VideoFeeds.i_count_the_total_number_of_video_feeds(VideoFeeds.java:49)
+	at ✽.I count the total number of video feeds(classpath:com/java/features/VideoFeeds.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1980983534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1980983534'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;element&quot; is null
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.java.utils.Utilities.waitForElementToLoad(Utilities.java:49)
+	at com.java.utils.Utilities.scrollTo(Utilities.java:85)
+	at com.java.pages.CoreProductNewsPage.getTotalVideoFeeds(CoreProductNewsPage.java:35)
+	at com.java.stepDefinition.VideoFeeds.i_count_the_total_number_of_video_feeds(VideoFeeds.java:49)
+	at ✽.I count the total number of video feeds(classpath:com/java/features/VideoFeeds.feature:8)
+</pre></div></td>
+<td>86</td>
+<td>com.java.runner.TestRunner@45b4c3a9</td></tr>
+</table><p>
+</body>
+</html>

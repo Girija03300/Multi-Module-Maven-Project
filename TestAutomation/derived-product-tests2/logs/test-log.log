@@ -1,0 +1,784 @@
+2025-02-10 20:43:23 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 20:43:23 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 20:43:28 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 20:43:29 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 20:48:51 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 20:48:51 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 20:48:57 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 20:48:58 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 20:52:55 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 20:52:55 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 20:53:01 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 20:53:34 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 22:29:49 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 22:29:49 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 22:29:59 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 22:30:25 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 22:41:46 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 22:41:46 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 22:41:54 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 22:41:58 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 22:45:58 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 22:45:58 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 22:46:05 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 22:46:09 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 22:47:34 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 22:47:34 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 22:47:44 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 22:47:48 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 22:49:55 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 22:49:55 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 22:50:06 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 22:50:10 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 22:56:34 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 22:56:34 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 22:56:40 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 22:57:16 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 22:59:02 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 22:59:02 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 22:59:09 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 22:59:43 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 23:01:37 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 23:01:37 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 23:01:58 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 23:02:41 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 23:04:21 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 23:04:21 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 23:04:30 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 23:05:29 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 23:09:00 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 23:09:00 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 23:09:10 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 23:10:13 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 23:17:34 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 23:17:34 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 23:17:49 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 23:18:26 [ERROR] com.java.base.SetUp - Failed to initialize fileWriter: \test-output\footerLinks.txt (The system cannot find the path specified)
+2025-02-10 23:18:32 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-10 23:23:20 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-10 23:23:20 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-10 23:23:29 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-10 23:24:06 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-10 23:24:08 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-11 00:04:13 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 00:04:13 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 00:04:13 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-11 00:04:33 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:05:09 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:05:53 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 00:05:53 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 00:05:54 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-11 00:05:59 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:06:20 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:07:07 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 00:07:07 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 00:07:07 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-11 00:07:13 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:07:16 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:07:52 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:09:49 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 00:09:49 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 00:10:05 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:10:06 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:11:12 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:11:16 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:11:17 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-11 00:16:38 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 00:16:38 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 00:16:48 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:16:48 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:17:20 [ERROR] com.java.base.SetUp - Failed to initialize fileWriter: C:\Users\Admin\Downloads\TestAutomation\derived-product-tests2\test-output\Edge\footerLinks.csv (The system cannot find the path specified)
+2025-02-11 00:17:28 [ERROR] com.java.base.SetUp - Failed to initialize fileWriter: C:\Users\Admin\Downloads\TestAutomation\derived-product-tests2\test-output\Chrome\footerLinks.csv (The system cannot find the path specified)
+2025-02-11 00:18:08 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-11 00:19:02 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 00:19:02 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 00:19:11 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:19:11 [INFO] com.java.base.SetUp - Browser was maximized
+2025-02-11 00:20:41 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:20:47 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:20:48 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-11 00:25:24 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 00:25:24 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 00:25:34 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 00:25:35 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 00:26:16 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:26:17 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:26:18 [WARN] com.java.base.SetUp - 🚨 WebDriver is already null, skipping quit()
+2025-02-11 00:49:25 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 00:49:25 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 00:49:25 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 00:49:25 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 00:49:32 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 00:49:34 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 00:49:34 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 00:49:34 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 00:50:51 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:50:51 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 00:50:52 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 1
+2025-02-11 08:26:39 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 08:26:39 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 08:26:39 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 08:26:39 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 08:26:54 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 08:26:54 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 08:26:55 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 08:26:55 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 08:28:46 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 1
+2025-02-11 08:33:01 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 08:33:01 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 08:33:01 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 08:33:01 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 08:33:08 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 08:33:09 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 08:33:09 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 08:33:09 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 08:34:07 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 1
+2025-02-11 09:18:08 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 09:18:08 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 09:18:08 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 09:18:08 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 09:18:18 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 09:18:47 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 09:18:47 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 09:18:47 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 09:18:47 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 09:18:56 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 09:19:00 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 09:19:02 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 09:19:03 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 09:23:04 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 1
+2025-02-11 09:23:44 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 09:23:44 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 09:23:45 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 09:23:45 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 09:23:57 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 09:23:57 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 09:23:58 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 09:23:58 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 09:26:28 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 09:26:30 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 09:26:33 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 1
+2025-02-11 09:31:13 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 09:31:13 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 09:31:13 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 09:31:13 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 09:31:26 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 09:31:27 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 09:31:29 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 09:31:30 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 09:31:31 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 1
+2025-02-11 11:00:59 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 11:00:59 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 11:00:59 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 11:00:59 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 11:01:22 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 11:01:22 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 11:01:23 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 11:01:23 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 11:03:46 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 11:03:46 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 11:03:49 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 1
+2025-02-11 11:10:13 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 11:10:13 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 11:10:13 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 11:10:13 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 11:10:21 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 11:10:21 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 11:10:51 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 11:10:56 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 11:11:19 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 11:11:27 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 11:11:28 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 1
+2025-02-11 11:13:21 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 11:13:21 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 11:13:21 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 11:13:21 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 11:13:31 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 11:13:34 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 11:13:34 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 11:13:35 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 11:16:06 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 11:16:07 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present!
+2025-02-11 12:01:10 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:01:10 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:01:10 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 12:01:10 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 12:01:20 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 24
+2025-02-11 12:01:20 [INFO] com.java.base.SetUp - ✅ WebDriver initialized for thread: 25
+2025-02-11 12:01:21 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:01:21 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:02:03 [INFO] com.java.base.SetUp - Title is Bulls - The official site of the NBA for the latest NBA Scores, Stats & News. | NBA.com in Edge
+2025-02-11 12:02:09 [INFO] com.java.base.SetUp - Title is Bulls - The official site of the NBA for the latest NBA Scores, Stats & News. | NBA.com in Chrome
+2025-02-11 12:02:14 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-11 12:02:15 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-11 12:02:18 [INFO] com.java.base.SetUp - Hyper Links are written to CSV File in Edge
+2025-02-11 12:02:18 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-11 12:02:18 [INFO] com.java.base.SetUp - duplicate hyper links arehttps://www.nba.com/accessibility in Edge
+2025-02-11 12:02:18 [INFO] com.java.base.SetUp - Hyper Links are written to CSV File in Chrome
+2025-02-11 12:02:19 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-11 12:02:19 [INFO] com.java.base.SetUp - duplicate hyper links arehttps://www.nba.com/accessibility in Chrome
+2025-02-11 12:19:51 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:19:51 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:19:51 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 12:19:51 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 12:19:58 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:20:10 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:22:39 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:22:39 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:22:39 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 12:22:39 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 12:22:47 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:22:48 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:24:27 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:24:27 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:24:27 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 12:24:27 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 12:24:35 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:24:36 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:25:51 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:25:51 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:25:51 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 25
+2025-02-11 12:25:51 [INFO] com.java.base.SetUp - ✅ Initializing WebDriver on thread: 24
+2025-02-11 12:26:00 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:26:01 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:26:02 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:26:02 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:26:50 [INFO] com.java.base.SetUp - Title is Bulls - The official site of the NBA for the latest NBA Scores, Stats & News. | NBA.com in Edge
+2025-02-11 12:26:51 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-11 12:26:52 [INFO] com.java.base.SetUp - Title is Bulls - The official site of the NBA for the latest NBA Scores, Stats & News. | NBA.com in Chrome
+2025-02-11 12:26:54 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-11 12:26:55 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-11 12:26:55 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-11 12:26:55 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-11 12:26:57 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-11 12:26:57 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-11 12:26:57 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-11 12:29:19 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:29:19 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:29:20 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 25
+2025-02-11 12:29:20 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 24
+2025-02-11 12:30:08 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:30:08 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:30:08 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 24
+2025-02-11 12:30:10 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 25
+2025-02-11 12:30:10 [WARN] com.java.base.SetUp - 🚨 WebDriver is null. Initializing browser for thread: 25
+2025-02-11 12:30:14 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:35:29 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:35:29 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:35:29 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 25
+2025-02-11 12:35:29 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 24
+2025-02-11 12:35:37 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:35:37 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:35:39 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:35:39 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:36:56 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:36:56 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:36:56 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 25
+2025-02-11 12:36:56 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 24
+2025-02-11 12:37:03 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:37:03 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:42:37 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:42:37 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:42:37 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 27
+2025-02-11 12:42:37 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 26
+2025-02-11 12:42:44 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:42:45 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:42:47 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:42:47 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:44:42 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:44:42 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:44:42 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 27
+2025-02-11 12:44:42 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 28
+2025-02-11 12:44:53 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:44:54 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:44:56 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:44:56 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:53:06 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 12:53:06 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 12:53:07 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 28
+2025-02-11 12:53:07 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 27
+2025-02-11 12:53:19 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 12:53:19 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 12:53:21 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:53:21 [INFO] com.java.base.SetUp - Running Scenario: Verify hyperlinks in the footer and check for duplicates
+2025-02-11 12:54:04 [INFO] com.java.base.SetUp - Title is Bulls - The official site of the NBA for the latest NBA Scores, Stats & News. | NBA.com in Edge
+2025-02-11 12:54:06 [INFO] com.java.base.SetUp - Title is Bulls - The official site of the NBA for the latest NBA Scores, Stats & News. | NBA.com in Chrome
+2025-02-11 12:54:10 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-11 12:54:11 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-11 12:54:14 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-11 12:54:14 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-11 12:54:14 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-11 12:54:14 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-11 12:54:16 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-11 12:54:16 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-11 13:08:00 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 13:08:00 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 13:08:00 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 27
+2025-02-11 13:08:00 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 26
+2025-02-11 13:08:12 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 13:08:14 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime:  in Edge
+2025-02-11 13:08:14 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 13:08:15 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime:  in Chrome
+2025-02-11 13:08:15 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicatesinEdge
+2025-02-11 13:08:15 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicatesinChrome
+2025-02-11 13:09:11 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/Chrome in Chrome
+2025-02-11 13:09:13 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/Edge in Edge
+2025-02-11 13:09:15 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-11 13:09:16 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-11 13:09:19 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-11 13:09:19 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-11 13:09:19 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-11 13:09:19 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-11 13:09:21 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-11 13:09:21 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-11 13:36:58 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 13:36:58 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 13:36:59 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 28
+2025-02-11 13:36:59 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 27
+2025-02-11 13:37:05 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 13:37:06 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime:  in Chrome
+2025-02-11 13:37:07 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicatesinChrome
+2025-02-11 13:37:13 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 13:37:13 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime:  in Edge
+2025-02-11 13:37:13 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicatesinEdge
+2025-02-11 13:37:45 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/Chrome in Chrome
+2025-02-11 13:37:48 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-11 13:37:50 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/Edge in Edge
+2025-02-11 13:37:51 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-11 13:37:53 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-11 13:37:53 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-11 13:37:53 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-11 13:37:55 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-11 13:37:55 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-11 13:37:55 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-11 13:39:11 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 13:39:11 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 13:39:12 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 28
+2025-02-11 13:39:12 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 27
+2025-02-11 13:39:20 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 13:39:21 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 13:39:22 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime:  in Edge
+2025-02-11 13:39:22 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime:  in Chrome
+2025-02-11 13:39:22 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicatesinEdge
+2025-02-11 13:39:22 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicatesinChrome
+2025-02-11 13:50:49 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 13:50:49 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 13:50:49 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 28
+2025-02-11 13:50:49 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 27
+2025-02-11 13:50:56 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 13:50:57 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 13:50:58 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime inChrome
+2025-02-11 13:50:58 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime inEdge
+2025-02-11 13:50:58 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-11 13:50:58 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-11 13:51:35 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/Edge in Edge
+2025-02-11 13:51:39 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-11 13:51:41 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/Chrome in Chrome
+2025-02-11 13:51:42 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-11 13:51:42 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-11 13:51:42 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-11 13:51:43 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-11 13:51:46 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-11 13:51:46 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-11 13:51:46 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-11 14:58:53 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 14:58:53 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 14:58:53 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 27
+2025-02-11 14:58:53 [INFO] com.java.base.SetUp - Initializing WebDriver on thread: 26
+2025-02-11 14:59:00 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 14:59:02 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 14:59:03 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime in Chrome
+2025-02-11 14:59:03 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime in Edge
+2025-02-11 14:59:03 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-11 14:59:03 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-11 23:13:16 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 23:13:16 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 23:13:22 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-11 23:13:23 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 23:13:25 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-11 23:13:25 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 23:13:56 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 23:13:56 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 23:14:07 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-11 23:14:08 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-11 23:14:08 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 23:14:09 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 23:16:07 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 23:16:07 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 23:16:15 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-11 23:16:16 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 23:16:16 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-11 23:16:16 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 23:16:17 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-11 23:16:17 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-11 23:16:18 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-11 23:16:18 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-11 23:16:56 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-11 23:16:57 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-11 23:17:01 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-11 23:17:01 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-11 23:17:04 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-11 23:17:04 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-11 23:17:07 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-11 23:17:07 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-11 23:17:08 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-11 23:17:08 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-11 23:17:08 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-11 23:17:11 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-11 23:17:11 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-11 23:17:11 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-11 23:50:39 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 23:50:39 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 23:50:48 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-11 23:50:49 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 23:50:49 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-11 23:50:50 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 23:50:51 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-11 23:50:51 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-11 23:50:51 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-11 23:50:51 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-11 23:50:55 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-11 23:51:40 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-11 23:54:13 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-11 23:54:13 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-11 23:54:22 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-11 23:54:23 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-11 23:54:23 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-11 23:54:24 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-11 23:54:25 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-11 23:54:25 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-11 23:54:25 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-11 23:54:25 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-11 23:55:07 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-11 23:55:07 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 00:05:52 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 00:05:52 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 00:06:04 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 00:06:04 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 00:06:04 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 00:06:04 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 00:06:05 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-12 00:06:05 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-12 00:06:06 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 00:06:06 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 00:06:41 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 00:06:41 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 00:15:21 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 00:15:21 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 00:15:30 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 00:15:30 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 00:15:31 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-12 00:15:32 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 00:15:44 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 00:15:45 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 00:15:46 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 00:15:46 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 00:15:48 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 00:15:48 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 00:15:48 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 00:16:47 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 00:16:47 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 00:16:53 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 00:16:54 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 00:16:55 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-12 00:16:55 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 00:17:13 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 00:17:13 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 00:17:14 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 00:17:14 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 00:17:16 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 00:17:16 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 00:17:16 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 00:21:14 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 00:21:14 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 00:21:14 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-12 00:26:19 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 00:26:19 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 00:26:26 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 00:26:26 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 00:26:27 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 00:26:27 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 00:26:28 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-12 00:26:28 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-12 00:26:29 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 00:26:29 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 00:26:33 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 00:27:17 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 00:27:21 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 00:27:21 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 00:27:24 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 00:27:24 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 00:27:28 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-12 00:27:28 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 00:27:30 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 00:27:30 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 00:27:30 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 00:27:32 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-12 00:27:32 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-12 00:27:32 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-12 11:00:21 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 11:00:21 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 11:00:46 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 11:00:46 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 11:00:56 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 11:00:56 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 11:00:56 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 11:00:56 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 11:00:57 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-12 11:00:57 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-12 11:00:58 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 11:00:58 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 11:01:51 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 11:01:51 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 11:01:53 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-12 11:01:53 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 11:01:55 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 11:01:56 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 11:01:57 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 11:01:57 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 11:01:57 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-12 11:01:57 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-12 11:01:57 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-12 11:02:01 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 11:02:01 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 11:02:01 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 11:06:13 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 11:06:13 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 11:14:44 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 11:14:44 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 11:17:07 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 11:17:07 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 11:23:25 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 11:23:25 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 11:57:19 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 11:57:19 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 11:57:25 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 11:57:25 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 11:57:28 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 11:57:28 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 11:58:55 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 11:58:55 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 11:59:03 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 11:59:03 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 11:59:03 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 11:59:03 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 11:59:04 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-12 11:59:04 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-12 11:59:05 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 11:59:05 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 11:59:37 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 11:59:38 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 11:59:45 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 11:59:45 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 11:59:48 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 11:59:48 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 11:59:50 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-12 11:59:50 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 11:59:50 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 11:59:50 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 11:59:50 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 11:59:54 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-12 11:59:54 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-12 11:59:54 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-12 16:07:11 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 16:07:11 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 16:42:09 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 16:42:09 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 16:42:23 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 16:42:23 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 16:42:24 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 16:42:24 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 16:42:26 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-02-12 16:42:26 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-02-12 16:42:26 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 16:42:26 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 16:43:32 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 16:43:33 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 16:43:37 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-12 16:43:37 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 16:43:44 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-12 16:43:44 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-12 16:43:44 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-12 16:43:47 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 16:43:47 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 16:43:48 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 16:43:48 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 16:43:51 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 16:43:51 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 16:43:51 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 17:16:59 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 17:16:59 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 17:17:06 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 17:17:06 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 17:17:07 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 17:17:07 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 17:17:08 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-02-12 17:17:08 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-02-12 17:17:08 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 17:17:08 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 17:17:13 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 17:17:52 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 17:17:55 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 17:17:55 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 17:17:55 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 17:17:55 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 17:17:56 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-12 17:17:56 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 17:17:57 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 17:17:57 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 17:17:57 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 17:18:00 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-12 17:18:00 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-12 17:18:00 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-12 17:32:11 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 17:32:11 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 17:32:20 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 17:32:21 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 17:32:21 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 17:32:21 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 17:32:22 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-02-12 17:32:22 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-02-12 17:32:23 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 17:32:23 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 17:32:27 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 17:33:20 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 17:33:21 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 17:33:29 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 17:33:29 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 17:33:32 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 17:33:34 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-12 17:33:34 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 17:33:38 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 17:33:38 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 17:33:38 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 17:33:41 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-12 17:33:41 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-12 17:33:41 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-12 23:38:09 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 23:38:09 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 23:38:19 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 23:38:20 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 23:38:20 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 23:38:20 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 23:38:21 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-02-12 23:38:21 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-02-12 23:38:21 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 23:38:21 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 23:39:24 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 23:39:28 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 23:39:28 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 23:39:31 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 23:39:31 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 23:39:33 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 23:39:35 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-12 23:39:35 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 23:39:42 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 23:39:42 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 23:39:42 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-12 23:39:42 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-12 23:39:44 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-12 23:39:44 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-12 23:43:51 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-12 23:43:51 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-12 23:44:00 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-12 23:44:00 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-12 23:44:01 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-12 23:44:01 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-12 23:44:02 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-02-12 23:44:02 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-02-12 23:44:02 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-12 23:44:02 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-12 23:45:15 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-12 23:45:16 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-12 23:45:23 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 23:45:23 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-12 23:45:33 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-12 23:45:33 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 23:45:35 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-12 23:45:35 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-12 23:45:42 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-12 23:45:42 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-12 23:45:42 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-12 23:45:43 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-12 23:45:44 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-12 23:45:44 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-13 16:36:59 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-13 16:36:59 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-13 16:37:08 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-13 16:37:09 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-13 16:37:10 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-13 16:37:10 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-13 16:37:35 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-13 16:37:35 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-13 16:58:45 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-13 16:58:45 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-13 16:58:55 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-13 16:58:55 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-13 16:58:55 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-13 16:58:55 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-13 16:58:57 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-13 16:58:57 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-13 16:58:57 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-13 16:58:57 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-13 16:59:01 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-13 16:59:35 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-13 16:59:37 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-13 16:59:37 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-13 16:59:37 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-13 16:59:37 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-13 16:59:39 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-13 16:59:39 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-13 16:59:40 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-13 16:59:40 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-13 16:59:40 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-13 16:59:42 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-13 16:59:42 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-13 16:59:42 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-13 17:16:39 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-13 17:16:39 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-13 17:16:47 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-13 17:16:47 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-13 17:16:47 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-13 17:16:47 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-13 17:16:48 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-13 17:16:48 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-13 17:16:49 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-13 17:16:49 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-13 17:17:32 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-13 17:17:33 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-13 17:17:40 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-13 17:17:40 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-13 17:17:41 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-13 17:17:42 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-13 17:17:43 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-13 17:17:43 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-13 17:17:45 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-13 17:17:45 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-13 17:17:45 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-02-13 17:17:46 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-13 17:17:46 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-13 17:17:46 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-13 17:49:48 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-02-13 17:49:48 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-02-13 17:49:54 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-02-13 17:49:56 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-02-13 17:49:56 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-02-13 17:49:56 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-02-13 17:49:57 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-02-13 17:49:57 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-02-13 17:49:57 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-02-13 17:49:57 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-02-13 17:50:02 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-02-13 17:50:28 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-02-13 17:50:28 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-13 17:50:33 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-02-13 17:50:33 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-13 17:50:38 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed
+2025-02-13 17:50:38 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-02-13 17:50:38 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-02-13 17:50:38 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-02-13 17:50:39 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-02-13 17:50:40 [INFO] com.java.base.SetUp - Different links for various categories are visible
+2025-02-13 17:50:42 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-02-13 17:50:42 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-02-13 17:50:42 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge

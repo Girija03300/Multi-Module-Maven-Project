@@ -1,0 +1,5 @@
+com\java\pages\CoreProductHomePage.class
+com\java\pages\CoreProductNewsPage.class
+com\java\runner\DynamicTestRunner.class
+com\java\runner\VideoFeedsRunner.class
+com\java\stepDefinition\VideoFeeds.class

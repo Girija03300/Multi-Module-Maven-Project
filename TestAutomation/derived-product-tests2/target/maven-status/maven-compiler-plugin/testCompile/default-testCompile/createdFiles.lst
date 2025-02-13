@@ -1,0 +1,4 @@
+com\java\runner\FootersRunner.class
+com\java\stepDefinition\Footers.class
+com\java\pages\DerivedProduct2HomePage.class
+com\java\runner\DynamicTestRunner.class
