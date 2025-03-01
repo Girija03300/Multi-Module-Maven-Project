@@ -4,11 +4,6 @@
 	<listeners>
 	<listener class-name="com.java.reports.ExtentListener"/>
 	</listeners>
-	<test name="Base Class">
-		<classes>
-		<class name= "com.java.base.SetUp"></class>
-		</classes>
-		</test>
    <test name="Derived Product 1 Tests in Chrome">
    <parameter name="browser" value="Chrome"></parameter>
    <parameter name="cucumber.options" value="@DP1"></parameter>

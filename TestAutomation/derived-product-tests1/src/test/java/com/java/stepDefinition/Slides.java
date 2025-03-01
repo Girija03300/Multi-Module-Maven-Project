@@ -7,7 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
-import com.java.dataReader.jsonReader;
+import com.java.dataReader.JsonReader;
 import com.java.pages.DerivedProduct1HomePage;
 
 import java.util.List;
@@ -22,7 +22,7 @@ public class Slides {
     @Given("I am on DP1 home page")
     public void i_am_on_dp1_home_page() throws IOException, ParseException {
     	DP1HomePage = new DerivedProduct1HomePage();
-    	Assert.assertTrue(DP1HomePage.getDP1HomePageTitle().contains(jsonReader.getDataFromJson("DP1HomePage", "title")));
+    	Assert.assertTrue(DP1HomePage.getDP1HomePageTitle().contains(JsonReader.getDataFromJson("DP1HomePage", "title")));
     }
 
     @When("I count the number of slides present below the Tickets menu")
@@ -32,7 +32,7 @@ public class Slides {
 
     @Then("I should see the expected number of slides")
     public void i_should_see_expected_number_of_slides() throws NumberFormatException, IOException, ParseException {
-    	int expectedSlideCount = Integer.parseInt(jsonReader.getDataFromJson("DP1HomePage", "slidesCount"));
+    	int expectedSlideCount = Integer.parseInt(JsonReader.getDataFromJson("DP1HomePage", "slidesCount"));
     	Assert.assertEquals(totalNumberOfSlides, expectedSlideCount,"Slides count is not as expected");
     }
 

@@ -8,15 +8,16 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import com.java.base.SetUp;
 import com.java.utils.Utilities;
 
 
-public class jsonReader extends Utilities{
+public class JsonReader extends Utilities{
 	
 	public static String getDataFromJson(String object , String data) throws IOException, ParseException
 	{	
 		JSONParser parser  = new JSONParser();
-		FileReader jsonFile = new FileReader(BaseDirectory+getconfigPropertyValue("jsonFilePath"));
+		FileReader jsonFile = new FileReader(SetUp.BaseDirectory+getconfigPropertyValue("jsonFilePath"));
 		JSONObject jsonObject = (JSONObject) parser.parse(jsonFile);
 		JSONObject getPageObject = (JSONObject)jsonObject.get(object);
 		String value= getPageObject.get(data).toString();

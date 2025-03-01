@@ -2,6 +2,7 @@ package com.java.pages;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -12,11 +13,20 @@ import com.java.utils.Utilities;
 
 public class CoreProductHomePage extends Utilities{
 		
-	public CoreProductHomePage()
+	private static ThreadLocal<CoreProductHomePage> CPHomePage = new ThreadLocal<>();
+    private WebDriver driver;
+
+	private CoreProductHomePage(WebDriver driver)
 	{
 		super();
+		this.driver = driver;
 	}
-		
+	 public static CoreProductHomePage getInstance() {
+	        if (CPHomePage.get() == null) {
+	        	CPHomePage.set(new CoreProductHomePage(SetUp.getDriver()));
+	        }
+	        return CPHomePage.get();
+	    }	
 	public void closeWindow()
 	{	
 		waitForPageToLoad(getconfigPropertyValue("pageLoadTime"));
@@ -26,7 +36,7 @@ public class CoreProductHomePage extends Utilities{
 		}
 		catch(Exception e)
 		{
-			log.info("Home Page Popup Window not displayed");
+			SetUp.log.info("Home Page Popup Window not displayed");
 		}
 		acceptCookies();
 		LoginReport("Core Product Home Page was displayed");
@@ -36,11 +46,11 @@ public class CoreProductHomePage extends Utilities{
 		try
 		{
 		clickElement(acceptCookies);
-		log.info("Accepted cookies");
+		SetUp.log.info("Accepted cookies");
 		}
 		catch(Exception e)
 		{
-			log.info("No cookie popup got displayed");
+			SetUp.log.info("No cookie popup got displayed");
 		}
 	}	
 	public void moveToMenuOptions()
@@ -50,10 +60,10 @@ public class CoreProductHomePage extends Utilities{
 		LoginReport("News and Features option was displayed");
 		
 	}
-	public CoreProductNewsPage selectNewsAndFeatures()
+	public void selectNewsAndFeatures()
 	{
 		clickElement(NewsAndFeatures);	
-		return new CoreProductNewsPage();
+	
 	}
 	public String getCPHomePageTitle()
 	{		

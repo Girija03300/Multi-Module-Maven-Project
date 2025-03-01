@@ -1,52 +1,25 @@
 package com.java.base;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
-import java.io.File;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.IOException;
-import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Properties;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
-import java.util.logging.LogManager;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.ITestContext;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-import com.java.dataReader.jsonReader;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.java.reports.ExtentReportsGenerator;
-import com.java.utils.Utilities;
+
+
 
 public class SetUp{
-	 
+	private static ThreadLocal<SetUp> setUp = new ThreadLocal<>();
 	private ChromeOptions chromeOptions;
 	private EdgeOptions edgeOptions;
 	public static  String BaseDirectory;
@@ -60,22 +33,26 @@ public class SetUp{
 	public static FileInputStream configPropertiesFile;
 	public static FileInputStream objectPropertiesFile;	
 	
-	@BeforeSuite
-	public void initalizeFiles() throws IOException
-	{
-		getPath();					//returns current directory path
-		initializeLogs();			//Initializes log4j
-		readProperties();			//Setting up the properties file to read xpaths and configurations from OR.properties and config.properties	
-	}
+   private SetUp()
+   {
+	   
+   }
 	
-	public void initializeLogs()
+	public static synchronized SetUp getInstance() {
+        if (setUp.get() == null) {
+        	setUp.set(new SetUp());
+        }
+        return setUp.get();
+    }
+	
+	public static void initializeLogs()
 	{
 		
 		PropertyConfigurator.configure(BaseDirectory+log4J);
 	}
 
 		
-	public void setupBrowserproperties()			
+	public static void setupBrowserproperties()			
 	{
 		if (getDriver() != null) {
 		getDriver().manage().window().maximize();
@@ -84,7 +61,7 @@ public class SetUp{
 		}
 	}
 	
-	public void getPath()
+	public static void getPath()
 	{
         Path automationFrameworkPath = Paths.get(CurrentDirectory, "..", "automation-framework").normalize();
         BaseDirectory=automationFrameworkPath.toAbsolutePath().toString();    
@@ -94,7 +71,7 @@ public class SetUp{
 	{
 		objectProp = new Properties();
 		configProp = new Properties();
-		objectPropertiesFile = new FileInputStream(BaseDirectory + "/src/main/java/com/java/config/OR.properties");
+		objectPropertiesFile = new FileInputStream(BaseDirectory + "/src/main/java/com/java/config/page-elements.properties");
 		configPropertiesFile = new FileInputStream(BaseDirectory + "/src/main/java/com/java/config/config.properties");
 		objectProp.load(objectPropertiesFile);
 		log.info("Initialised properties file containing xpaths");
@@ -144,11 +121,11 @@ public class SetUp{
 		public static String getBrowserName() {    
 		    return currentBrowserName.get();
 		}
-	 
-	    @AfterSuite    
-	    public static void quitDriver() {		
-		        driver.remove(); 
-	   }
+	 public static ThreadLocal<WebDriver> get()
+	 {
+		 return driver;
+	 }
+	  
 }
 
 	

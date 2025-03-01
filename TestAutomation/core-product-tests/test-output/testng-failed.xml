@@ -4,34 +4,21 @@
   <listeners>
     <listener class-name="com.java.reports.ExtentListener"/>
   </listeners>
-  <test thread-count="2" parallel="tests" name="Core Product Tests in Edge(failed)">
-    <parameter name="cucumber.options" value="@CP2"/>
-    <parameter name="browser" value="Edge"/>
-    <classes>
-      <class name="com.java.runner.TestRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="setCucumberTags"/>
-          <include name="runScenario" invocation-numbers="0 1"/>
-          <include name="tearDownClass"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.java.runner.TestRunner -->
-    </classes>
-  </test> <!-- Core Product Tests in Edge(failed) -->
   <test thread-count="2" parallel="tests" name="Core Product Tests in Chrome(failed)">
     <parameter name="cucumber.options" value="@CP2"/>
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.java.runner.TestRunner">
+      <class name="com.java.runner.VideoFeedsRunner">
         <methods>
+          <include name="initalizeFiles"/>
           <include name="setUpClass"/>
           <include name="setCucumberTags"/>
+          <include name="quitDriver"/>
           <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.java.runner.TestRunner -->
+      </class> <!-- com.java.runner.VideoFeedsRunner -->
     </classes>
   </test> <!-- Core Product Tests in Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

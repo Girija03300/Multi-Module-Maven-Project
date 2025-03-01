@@ -505,3 +505,29 @@
 2025-02-13 17:52:50 [INFO] com.java.base.SetUp - Daryl Morey Press Conference Recap Video slide duration is 10 in Chrome
 2025-02-13 17:52:50 [INFO] com.java.base.SetUp - Sixers Sign Chuma Okeke to 10-Day Contract slide duration is 10 in Chrome
 2025-02-13 17:52:50 [INFO] com.java.base.SetUp - Slides duration is matching with the expected data
+2025-03-01 13:56:43 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-01 13:56:43 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-01 13:56:52 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-03-01 13:56:53 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-03-01 13:56:53 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-01 13:56:53 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-01 13:56:55 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Edge
+2025-03-01 13:56:55 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Chrome
+2025-03-01 13:56:55 [INFO] com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Edge
+2025-03-01 13:56:55 [INFO] com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Chrome
+2025-03-01 13:56:59 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Chrome
+2025-03-01 13:58:58 [INFO] com.java.base.SetUp - Slides are displayed in Home Page in Chrome
+2025-03-01 13:58:59 [INFO] com.java.base.SetUp - Total Number number of Slides present are: 5
+2025-03-01 13:59:00 [INFO] com.java.base.SetUp - Slide title: 76ers Welcome Alex Reese with Two-Way Contract in Chrome
+2025-03-01 13:59:01 [INFO] com.java.base.SetUp - Slide title: David Roddy Signs Two-Way Contract with 76ers in Chrome
+2025-03-01 13:59:01 [INFO] com.java.base.SetUp - Slide title: 76ers Sign Lonnie Walker IV in Chrome
+2025-03-01 13:59:01 [INFO] com.java.base.SetUp - Slide title: 76ers Celebrate Dikembe Mutombo in Chrome
+2025-03-01 13:59:01 [INFO] com.java.base.SetUp - Slide title: Inside 2025 NBA All-Star Weekend with the 76ers in Chrome
+2025-03-01 13:59:10 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Edge
+2025-03-01 13:59:10 [INFO] com.java.base.SetUp - Slides are displayed in Home Page in Edge
+2025-03-01 13:59:11 [INFO] com.java.base.SetUp - Total Number number of Slides present are: 5
+2025-03-01 13:59:12 [INFO] com.java.base.SetUp - Slide title: 76ers Welcome Alex Reese with Two-Way Contract in Edge
+2025-03-01 13:59:12 [INFO] com.java.base.SetUp - Slide title: David Roddy Signs Two-Way Contract with 76ers in Edge
+2025-03-01 13:59:12 [INFO] com.java.base.SetUp - Slide title: 76ers Sign Lonnie Walker IV in Edge
+2025-03-01 13:59:12 [INFO] com.java.base.SetUp - Slide title: 76ers Celebrate Dikembe Mutombo in Edge
+2025-03-01 13:59:13 [INFO] com.java.base.SetUp - Slide title: Inside 2025 NBA All-Star Weekend with the 76ers in Edge

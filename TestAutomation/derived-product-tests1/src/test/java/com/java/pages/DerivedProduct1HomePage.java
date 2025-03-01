@@ -11,7 +11,7 @@ import org.json.simple.parser.ParseException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.java.dataReader.jsonReader;
+import com.java.dataReader.JsonReader;
 import com.java.utils.Utilities;
 
 public class DerivedProduct1HomePage extends Utilities{
@@ -58,7 +58,7 @@ public class DerivedProduct1HomePage extends Utilities{
 		for(int i=0;i<totalNumberOfSlides;i++)
 		{
 			String slideTitle = "slideTitle"+String.valueOf(i+1);
-			if(slideTitles.get(i).equals(jsonReader.getDataFromJson("DP1HomePage", slideTitle)))
+			if(slideTitles.get(i).equals(JsonReader.getDataFromJson("DP1HomePage", slideTitle)))
 			{
 				count++;
 			}
@@ -98,9 +98,9 @@ public class DerivedProduct1HomePage extends Utilities{
 		 for (Map.Entry<String, Long> entry : slidesData.entrySet()) {
 			 
 				log(entry.getKey() + " slide duration is " + entry.getValue());
-				if( entry.getValue() >= Long.parseLong(jsonReader.getDataFromJson("DP1HomePage", "slideDurationstart")))
+				if( entry.getValue() >= Long.parseLong(JsonReader.getDataFromJson("DP1HomePage", "slideDurationstart")))
 				{
-					if(entry.getValue() <= Long.parseLong(jsonReader.getDataFromJson("DP1HomePage", "slideDurationend")))
+					if(entry.getValue() <= Long.parseLong(JsonReader.getDataFromJson("DP1HomePage", "slideDurationend")))
 					{
 					count++;
 					}

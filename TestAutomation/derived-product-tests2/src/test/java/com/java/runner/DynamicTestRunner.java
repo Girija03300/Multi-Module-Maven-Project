@@ -41,11 +41,6 @@ public class DynamicTestRunner {
 		<listeners>
 		<listener class-name="com.java.reports.ExtentListener"/>
 		</listeners>
-	<test name="Base Class">
-		<classes>
-		<class name= "com.java.base.SetUp"></class>
-		</classes>
-	</test>
 				""");
 		for(File featureFile:featureFilesList)
 		{
@@ -91,35 +86,48 @@ public class DynamicTestRunner {
             import org.testng.annotations.Parameters;
             import com.java.base.SetUp;
             import com.java.reports.ExtentReportsGenerator;
+            import java.io.IOException;
+			import org.testng.annotations.AfterSuite;
+			import org.testng.annotations.BeforeClass;
+			import org.testng.annotations.BeforeSuite;
+			import org.testng.annotations.BeforeTest;
 
             @CucumberOptions(
                 features = "src/test/java/com/java/features/%s",
                 glue = {"com.java.base", "com.java.stepDefinition"}
             )
             public class %s extends AbstractTestNGCucumberTests {
-                public SetUp setUp;
-                
-                @Parameters("browser")
-                @BeforeTest
-                public void setup(String browserName) {
-                    setUp = new SetUp();
-                    setUp.initialiseBrowser(browserName);
-                    SetUp.currentBrowserName.set(browserName);
-                    setUp.setupBrowserproperties();
-                    ExtentReportsGenerator.initializeReport();
-                }
+            @BeforeSuite
+          	public void initalizeFiles() throws IOException
+          	{
+             	SetUp.getPath();				//returns current directory path
+             	SetUp.initializeLogs();			//Initializes log4j
+             	SetUp.readProperties();			//Setting up the properties file to read xpaths and configurations from OR.properties and config.properties	
+                ExtentReportsGenerator.initializeReport();
+          	}
+             @Parameters("browser")
+             @BeforeTest
+             public void setup(String browserName) {         
+            	 SetUp.getInstance().initialiseBrowser(browserName);
+                 SetUp.currentBrowserName.set(browserName);
+                 SetUp.setupBrowserproperties();          
+             }
 
-                @BeforeClass
-                @Parameters("cucumber.options")
-                public void setCucumberTags(String cucumberTags) {
-                    if (cucumberTags != null && !cucumberTags.isEmpty()) {
-                        System.setProperty("cucumber.filter.tags", cucumberTags);
-                        SetUp.log.info("Cucumber Tags Set at Runtime as " + cucumberTags + " in " + SetUp.getBrowserName());
-                    } else {
-                        System.out.println("No tags are specified");
-                    }
-                }
-            }
+             @BeforeClass
+             @Parameters("cucumber.options")
+             public void setCucumberTags(String cucumberTags) {
+                 if (cucumberTags != null && !cucumberTags.isEmpty()) {
+                     System.setProperty("cucumber.filter.tags", cucumberTags);
+                     SetUp.log.info("Cucumber Tags Set at Runtime as " + cucumberTags + " in " + SetUp.getBrowserName());
+                 } else {
+                     System.out.println("No tags are specified");
+                 }
+             }
+             @AfterSuite
+             public void quitDriver() {
+             	 SetUp.get().remove();
+               }
+         }
             """,RUNNER_PACKAGE,featureFileName,className);	
 		
 		try {

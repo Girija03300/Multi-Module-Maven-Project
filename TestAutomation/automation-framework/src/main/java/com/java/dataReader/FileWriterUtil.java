@@ -6,13 +6,13 @@ import java.io.IOException;
 
 import com.java.utils.Utilities;
 
-public class fileWriter extends Utilities{
+public class FileWriterUtil extends Utilities{
 
 	FileWriter fileWriter;
 	BufferedWriter writer; 
 	
 	
-	public fileWriter(String filePath) throws IOException
+	public FileWriterUtil(String filePath) throws IOException
 	{
 		fileWriter  = new FileWriter(filePath);
 		writer = new BufferedWriter(fileWriter);		

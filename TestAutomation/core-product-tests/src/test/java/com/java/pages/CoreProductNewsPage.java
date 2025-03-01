@@ -7,26 +7,37 @@ import java.util.List;
 
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.java.dataReader.jsonReader;
+import com.java.base.SetUp;
+import com.java.dataReader.JsonReader;
 import com.java.utils.Utilities;
 
 	
 public class CoreProductNewsPage extends Utilities {
+	private static ThreadLocal<CoreProductNewsPage> CPNewsPage = new ThreadLocal<>();
 	private String timeFirstPart=getPropertyValue("timeFirstPart");
 	private String timeSecondPart=getPropertyValue("timeSecondPart");
 	private int totalVideoFeeds;
 	private int videoFeedsGreaterThanThreeDays=0;
 	private List<String> videoFeedsTime = new ArrayList<>();
-	
-	public CoreProductNewsPage()
+	private WebDriver driver;
+	private CoreProductNewsPage(WebDriver driver)
 	{
 		super();
+		this.driver=driver;
 	}
-		
+	public static CoreProductNewsPage getInstance()
+	{
+		if(CPNewsPage.get() == null)
+		{
+			CPNewsPage .set(new CoreProductNewsPage(SetUp.getDriver()));
+		}
+		return CPNewsPage.get();
+	}
 	public int  getTotalVideoFeeds()
 	{	
 		refreshPage();
@@ -71,7 +82,7 @@ public class CoreProductNewsPage extends Utilities {
 				String noOfDays = time.substring(0,1);
 				int days=Integer.parseInt(noOfDays);
 				String expectedDays;
-					expectedDays = jsonReader.getDataFromJson("VideoFeeds","Days");
+					expectedDays = JsonReader.getDataFromJson("VideoFeeds","Days");
 					if(days>=Integer.parseInt(expectedDays))
 					{
 						videoFeedsGreaterThanThreeDays++;
@@ -79,7 +90,7 @@ public class CoreProductNewsPage extends Utilities {
 			}
 		}
 		try {
-			LoginReport("Total number of video feeds greater than " + jsonReader.getDataFromJson("VideoFeeds","Days") + " days are " + videoFeedsGreaterThanThreeDays);
+			LoginReport("Total number of video feeds greater than " + JsonReader.getDataFromJson("VideoFeeds","Days") + " days are " + videoFeedsGreaterThanThreeDays);
 		} catch (Exception e) {
 			
 		}
