@@ -22,9 +22,9 @@ import java.util.Set;
 
 public class Footers {
 		
-	    @Given("^I am on DP2 home page$")
-	    public void i_am_on_dp2_home_page() throws IOException, ParseException {	
-	    	Assert.assertTrue(DerivedProduct2HomePage.getInstance().getDP2HomePageTitle().contains(JsonReader.getDataFromJson("DP2HomePage", "title")));
+	    @Given("^I am on DP2 home page with title \"(.*)\"$")
+	    public void i_am_on_dp2_home_page(String title){	
+	    	Assert.assertTrue(DerivedProduct2HomePage.getInstance().getDP2HomePageTitle().contains(title));
 	    }
 
 	    @When("^I scroll down to the footer$")

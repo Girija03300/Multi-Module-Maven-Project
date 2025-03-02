@@ -38,3 +38,111 @@
 2025-03-02 16:27:53 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
 2025-03-02 16:27:54 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Edge
 2025-03-02 16:27:54 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Chrome
+2025-03-02 16:38:26 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 16:38:26 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 16:38:28 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 16:38:28 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 16:38:32 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 16:38:32 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 16:38:34 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 16:38:34 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 16:38:36 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 16:38:36 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 16:38:37 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-03-02 16:38:37 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-03-02 16:38:38 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Chrome
+2025-03-02 16:38:38 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Edge
+2025-03-02 16:38:45 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/warriors in Chrome
+2025-03-02 16:38:46 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/warriors in Edge
+2025-03-02 16:39:24 [TestNG-tests-1] INFO  com.java.base.SetUp - Home Page Popup Window not displayed
+2025-03-02 16:39:29 [TestNG-tests-1] INFO  com.java.base.SetUp - Accepted cookies
+2025-03-02 16:39:29 [TestNG-tests-1] INFO  com.java.base.SetUp - Core Product Home Page was displayed in Chrome
+2025-03-02 16:39:30 [TestNG-tests-2] INFO  com.java.base.SetUp - Home Page Popup Window not displayed
+2025-03-02 16:39:35 [TestNG-tests-1] INFO  com.java.base.SetUp - News and Features option was displayed in Chrome
+2025-03-02 16:39:52 [TestNG-tests-2] INFO  com.java.base.SetUp - No cookie popup got displayed
+2025-03-02 16:39:52 [TestNG-tests-2] INFO  com.java.base.SetUp - Core Product Home Page was displayed in Edge
+2025-03-02 16:40:06 [TestNG-tests-2] INFO  com.java.base.SetUp - News and Features option was displayed in Edge
+2025-03-02 16:40:34 [TestNG-tests-1] INFO  com.java.base.SetUp - News and Media Page was displayed in Chrome
+2025-03-02 16:40:42 [TestNG-tests-1] INFO  com.java.base.SetUp - Scrolled to videos section in Chrome
+2025-03-02 16:40:43 [TestNG-tests-1] INFO  com.java.base.SetUp - Videos section was displayed in Chrome
+2025-03-02 16:40:46 [TestNG-tests-1] INFO  com.java.base.SetUp - Total Video Feeds Displayed are 22 in Chrome
+2025-03-02 16:40:48 [TestNG-tests-1] INFO  com.java.base.SetUp - Total number of video feeds greater than 3 days are 0 in Chrome
+2025-03-02 16:40:51 [TestNG-tests-2] INFO  com.java.base.SetUp - News and Media Page was displayed in Edge
+2025-03-02 16:40:55 [TestNG-tests-2] INFO  com.java.base.SetUp - Scrolled to videos section in Edge
+2025-03-02 16:40:55 [TestNG-tests-2] INFO  com.java.base.SetUp - Videos section was displayed in Edge
+2025-03-02 16:40:57 [TestNG-tests-2] INFO  com.java.base.SetUp - Total Video Feeds Displayed are 22 in Edge
+2025-03-02 16:40:58 [TestNG-tests-2] INFO  com.java.base.SetUp - Total number of video feeds greater than 3 days are 0 in Edge
+2025-03-02 16:41:57 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 16:41:57 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 16:41:59 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 16:41:59 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 16:42:00 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 16:42:00 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 16:42:07 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 16:42:07 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 16:42:07 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 16:42:07 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 16:42:10 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-03-02 16:42:10 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-03-02 16:42:10 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Chrome
+2025-03-02 16:42:10 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Edge
+2025-03-02 16:42:16 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/warriors in Chrome
+2025-03-02 16:42:16 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/warriors in Edge
+2025-03-02 16:42:53 [TestNG-tests-2] INFO  com.java.base.SetUp - Home Page Popup Window not displayed
+2025-03-02 16:43:13 [TestNG-tests-2] INFO  com.java.base.SetUp - No cookie popup got displayed
+2025-03-02 16:43:13 [TestNG-tests-2] INFO  com.java.base.SetUp - Core Product Home Page was displayed in Edge
+2025-03-02 16:43:15 [TestNG-tests-2] INFO  com.java.base.SetUp - News and Features option was displayed in Edge
+2025-03-02 16:43:20 [TestNG-tests-2] INFO  com.java.base.SetUp - News and Media Page was displayed in Edge
+2025-03-02 16:43:22 [TestNG-tests-2] INFO  com.java.base.SetUp - Scrolled to videos section in Edge
+2025-03-02 16:43:22 [TestNG-tests-2] INFO  com.java.base.SetUp - Videos section was displayed in Edge
+2025-03-02 16:43:23 [TestNG-tests-2] INFO  com.java.base.SetUp - Total Video Feeds Displayed are 22 in Edge
+2025-03-02 16:43:25 [TestNG-tests-2] INFO  com.java.base.SetUp - Total number of video feeds greater than 3 days are 0 in Edge
+2025-03-02 16:43:29 [TestNG-tests-1] INFO  com.java.base.SetUp - Home Page Popup Window not displayed
+2025-03-02 16:43:30 [TestNG-tests-1] INFO  com.java.base.SetUp - Accepted cookies
+2025-03-02 16:43:30 [TestNG-tests-1] INFO  com.java.base.SetUp - Core Product Home Page was displayed in Chrome
+2025-03-02 16:43:34 [TestNG-tests-1] INFO  com.java.base.SetUp - News and Features option was displayed in Chrome
+2025-03-02 16:43:41 [TestNG-tests-1] INFO  com.java.base.SetUp - News and Media Page was displayed in Chrome
+2025-03-02 16:43:50 [TestNG-tests-1] INFO  com.java.base.SetUp - Scrolled to videos section in Chrome
+2025-03-02 16:43:50 [TestNG-tests-1] INFO  com.java.base.SetUp - Videos section was displayed in Chrome
+2025-03-02 16:43:51 [TestNG-tests-1] INFO  com.java.base.SetUp - Total Video Feeds Displayed are 22 in Chrome
+2025-03-02 16:43:53 [TestNG-tests-1] INFO  com.java.base.SetUp - Total number of video feeds greater than 3 days are 0 in Chrome
+2025-03-02 16:58:20 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 16:58:20 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 16:58:24 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 16:58:24 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 16:58:24 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 16:58:24 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:35:51 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 17:35:51 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 17:35:54 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 17:35:54 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 17:35:54 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:35:54 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 17:36:04 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 17:36:04 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 17:36:04 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 17:36:05 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 17:36:07 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-03-02 17:36:07 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-03-02 17:36:07 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Chrome
+2025-03-02 17:36:07 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Edge
+2025-03-02 17:36:12 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/warriors in Edge
+2025-03-02 17:36:13 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/warriors in Chrome
+2025-03-02 17:36:43 [TestNG-tests-2] INFO  com.java.base.SetUp - Home Page Popup Window not displayed
+2025-03-02 17:36:55 [TestNG-tests-1] INFO  com.java.base.SetUp - Home Page Popup Window not displayed
+2025-03-02 17:37:03 [TestNG-tests-2] INFO  com.java.base.SetUp - No cookie popup got displayed
+2025-03-02 17:37:03 [TestNG-tests-2] INFO  com.java.base.SetUp - Core Product Home Page was displayed in Edge
+2025-03-02 17:37:07 [TestNG-tests-2] INFO  com.java.base.SetUp - News and Features option was displayed in Edge
+2025-03-02 17:37:15 [TestNG-tests-1] INFO  com.java.base.SetUp - No cookie popup got displayed
+2025-03-02 17:37:15 [TestNG-tests-1] INFO  com.java.base.SetUp - Core Product Home Page was displayed in Chrome
+2025-03-02 17:37:19 [TestNG-tests-1] INFO  com.java.base.SetUp - News and Features option was displayed in Chrome
+2025-03-02 17:37:28 [TestNG-tests-1] INFO  com.java.base.SetUp - News and Media Page was displayed in Chrome
+2025-03-02 17:37:31 [TestNG-tests-1] INFO  com.java.base.SetUp - Scrolled to videos section in Chrome
+2025-03-02 17:37:31 [TestNG-tests-1] INFO  com.java.base.SetUp - Videos section was displayed in Chrome
+2025-03-02 17:37:32 [TestNG-tests-1] INFO  com.java.base.SetUp - Total Video Feeds Displayed are 22 in Chrome
+2025-03-02 17:37:34 [TestNG-tests-1] INFO  com.java.base.SetUp - Total number of video feeds greater than 3 days are 0 in Chrome
+2025-03-02 17:37:43 [TestNG-tests-2] INFO  com.java.base.SetUp - News and Media Page was displayed in Edge
+2025-03-02 17:37:45 [TestNG-tests-2] INFO  com.java.base.SetUp - Scrolled to videos section in Edge
+2025-03-02 17:37:45 [TestNG-tests-2] INFO  com.java.base.SetUp - Videos section was displayed in Edge
+2025-03-02 17:37:46 [TestNG-tests-2] INFO  com.java.base.SetUp - Total Video Feeds Displayed are 22 in Edge
+2025-03-02 17:37:48 [TestNG-tests-2] INFO  com.java.base.SetUp - Total number of video feeds greater than 3 days are 0 in Edge

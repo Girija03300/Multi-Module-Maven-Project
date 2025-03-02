@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Derived Product 1 Tests in Edge</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 13 17:33:44 IST 2025</td>
+<td>Started on:</td><td>Sun Mar 02 17:26:16 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>123 seconds (123067 ms)</td>
+<tr><td>Total time:</td><td>141 seconds (141314 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,19 +67,28 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.java.runner.SlidesRunner.runScenario()'><b>runScenario</b><br>Test class: com.java.runner.SlidesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate slide count, titles, and duration", "Optional[Validate Slides on DP1 Home Page]"</td>
-<td></td>
-<td>112</td>
-<td>com.java.runner.SlidesRunner@3514a4c0</td></tr>
+<td title='com.java.runner.SlidesRunner.runScenario()'><b>runScenario</b><br>Test class: com.java.runner.SlidesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate slide count, titles, and duration", "Validate Slides on DP1 Home Page"</td>
+<td><div><pre>java.lang.AssertionError: Slide durations are not matching expected [true] but found [false]
+	at com.java.stepDefinition.Slides.i_validate_slide_durations(Slides.java:54)
+	at ✽.I validate the duration with the expected duration(file:///C:/Users/Admin/Downloads/MyProject/Multi-Module-Maven-Project/TestAutomation/derived-product-tests1/src/test/java/com/java/features/Slides.feature:11)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace958976235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace958976235'><pre>java.lang.AssertionError: Slide durations are not matching expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.java.stepDefinition.Slides.i_validate_slide_durations(Slides.java:54)
+	at ✽.I validate the duration with the expected duration(file:///C:/Users/Admin/Downloads/MyProject/Multi-Module-Maven-Project/TestAutomation/derived-product-tests1/src/test/java/com/java/features/Slides.feature:11)
+</pre></div></td>
+<td>113</td>
+<td>com.java.runner.SlidesRunner@131ef10</td></tr>
 </table><p>
 </body>
 </html>

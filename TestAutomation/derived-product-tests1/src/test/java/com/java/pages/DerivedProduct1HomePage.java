@@ -8,24 +8,32 @@ import java.util.List;
 import java.util.Map;
 
 import org.json.simple.parser.ParseException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import com.java.base.SetUp;
 import com.java.dataReader.JsonReader;
 import com.java.utils.Utilities;
 
 public class DerivedProduct1HomePage extends Utilities{
-	
+	private static ThreadLocal<DerivedProduct1HomePage> DP1HomePage = new ThreadLocal<>();
 	private int totalNumberOfSlides;
 	private String slideTitleFirstPart=getPropertyValue("slideTitleFirstPart");
 	private String slideTitleSecondPart=getPropertyValue("slideTitleSecondPart");
 	private List<String> slideTitles;
 	private Map<String,Long> slidesData; 
-
-	public DerivedProduct1HomePage() {
+	  private WebDriver driver;
+	public DerivedProduct1HomePage(WebDriver driver) {
 		super();
+		this.driver = driver;
 	}
-	
+	 public static DerivedProduct1HomePage getInstance() {
+		 if (DP1HomePage.get() == null) {
+		       DP1HomePage.set(new DerivedProduct1HomePage(SetUp.getDriver()));
+		    }
+		return DP1HomePage.get();
+		    }	
 	public String getDP1HomePageTitle()
 	{
 		return getTitle();
@@ -51,7 +59,7 @@ public class DerivedProduct1HomePage extends Utilities{
 			slideTitles.add(title);
 		}
 	}
-	public boolean validateSlideTitles() throws IOException, ParseException
+	public boolean compareSlideTitles() throws IOException, ParseException
 	{
 		int count=0;
 		
@@ -92,7 +100,7 @@ public class DerivedProduct1HomePage extends Utilities{
 		}
 		
 	}
-	public boolean validateSlideDuration() throws NumberFormatException, IOException, ParseException
+	public boolean compareSlideDuration() throws NumberFormatException, IOException, ParseException
 	{
 		int count = 0;
 		 for (Map.Entry<String, Long> entry : slidesData.entrySet()) {

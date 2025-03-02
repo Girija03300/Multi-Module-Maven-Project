@@ -1,84 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-13T17:33:44 IST" name="Suite" finished-at="2025-02-13T17:35:47 IST" duration-ms="123108">
+  <suite started-at="2025-03-02T17:26:16 IST" name="Suite" finished-at="2025-03-02T17:28:37 IST" duration-ms="141387">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.SlidesRunner@932bc4a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.SlidesRunner@3514a4c0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.SlidesRunner@3b0090a4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.SlidesRunner@131ef10]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-02-13T17:33:44 IST" name="Derived Product 1 Tests in Edge" finished-at="2025-02-13T17:35:47 IST" duration-ms="123067">
-      <class name="com.java.base.SetUp">
-        <test-method is-config="true" signature="initalizeFiles()[pri:0, instance:com.java.base.SetUp@7a675056]" started-at="2025-02-13T17:33:43 IST" name="initalizeFiles" finished-at="2025-02-13T17:33:44 IST" duration-ms="216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalizeFiles -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.java.base.SetUp@7a675056]" started-at="2025-02-13T17:35:54 IST" name="quitDriver" finished-at="2025-02-13T17:35:54 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.java.base.SetUp -->
+    <test started-at="2025-03-02T17:26:16 IST" name="Derived Product 1 Tests in Chrome" finished-at="2025-03-02T17:28:37 IST" duration-ms="141387">
       <class name="com.java.runner.SlidesRunner">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.SlidesRunner@3514a4c0]" started-at="2025-02-13T17:33:44 IST" name="setup" finished-at="2025-02-13T17:33:53 IST" duration-ms="8853" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.SlidesRunner@3514a4c0]" started-at="2025-02-13T17:33:53 IST" name="setUpClass" finished-at="2025-02-13T17:33:54 IST" duration-ms="1218" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@4d1bf319]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.SlidesRunner@3514a4c0]" started-at="2025-02-13T17:33:54 IST" name="setCucumberTags" finished-at="2025-02-13T17:33:54 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[@DP1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setCucumberTags -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.SlidesRunner@3514a4c0]" started-at="2025-02-13T17:33:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T17:35:46 IST" duration-ms="112526" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate slide count, titles, and duration"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Validate Slides on DP1 Home Page]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.SlidesRunner@3514a4c0]" started-at="2025-02-13T17:35:46 IST" name="tearDownClass" finished-at="2025-02-13T17:35:47 IST" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.java.runner.SlidesRunner -->
-    </test> <!-- Derived Product 1 Tests in Edge -->
-    <test started-at="2025-02-13T17:33:44 IST" name="Derived Product 1 Tests in Chrome" finished-at="2025-02-13T17:35:47 IST" duration-ms="123108">
-      <class name="com.java.runner.SlidesRunner">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.SlidesRunner@932bc4a]" started-at="2025-02-13T17:33:44 IST" name="setup" finished-at="2025-02-13T17:33:53 IST" duration-ms="8864" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.SlidesRunner@3b0090a4]" started-at="2025-03-02T17:26:16 IST" name="setup" finished-at="2025-03-02T17:26:32 IST" duration-ms="16165" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,18 +22,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.SlidesRunner@932bc4a]" started-at="2025-02-13T17:33:53 IST" name="setUpClass" finished-at="2025-02-13T17:33:54 IST" duration-ms="1218" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.SlidesRunner@3b0090a4]" started-at="2025-03-02T17:26:32 IST" name="setUpClass" finished-at="2025-03-02T17:26:35 IST" duration-ms="2360" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b695b06]]>
+                <![CDATA[org.testng.TestRunner@85e6769]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.SlidesRunner@932bc4a]" started-at="2025-02-13T17:33:54 IST" name="setCucumberTags" finished-at="2025-02-13T17:33:54 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.SlidesRunner@3b0090a4]" started-at="2025-03-02T17:26:35 IST" name="setCucumberTags" finished-at="2025-03-02T17:26:35 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCucumberTags -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.SlidesRunner@932bc4a]" started-at="2025-02-13T17:33:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T17:35:47 IST" duration-ms="112856" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.SlidesRunner@3b0090a4]" started-at="2025-03-02T17:26:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-02T17:28:29 IST" duration-ms="114378" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,18 +53,97 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Validate Slides on DP1 Home Page]"]]>
+                <![CDATA["Validate Slides on DP1 Home Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.SlidesRunner@932bc4a]" started-at="2025-02-13T17:35:47 IST" name="tearDownClass" finished-at="2025-02-13T17:35:47 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.SlidesRunner@3b0090a4]" started-at="2025-03-02T17:28:29 IST" name="tearDownClass" finished-at="2025-03-02T17:28:37 IST" duration-ms="8206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.java.runner.SlidesRunner -->
     </test> <!-- Derived Product 1 Tests in Chrome -->
+    <test started-at="2025-03-02T17:26:16 IST" name="Derived Product 1 Tests in Edge" finished-at="2025-03-02T17:28:37 IST" duration-ms="141314">
+      <class name="com.java.runner.SlidesRunner">
+        <test-method is-config="true" signature="initalizeFiles()[pri:0, instance:com.java.runner.SlidesRunner@131ef10]" started-at="2025-03-02T17:26:12 IST" name="initalizeFiles" finished-at="2025-03-02T17:26:16 IST" duration-ms="3600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeFiles -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.SlidesRunner@131ef10]" started-at="2025-03-02T17:26:16 IST" name="setup" finished-at="2025-03-02T17:26:32 IST" duration-ms="16282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.SlidesRunner@131ef10]" started-at="2025-03-02T17:26:32 IST" name="setUpClass" finished-at="2025-03-02T17:26:35 IST" duration-ms="2329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c5ee75e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.SlidesRunner@131ef10]" started-at="2025-03-02T17:26:35 IST" name="setCucumberTags" finished-at="2025-03-02T17:26:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@DP1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCucumberTags -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.SlidesRunner@131ef10]" started-at="2025-03-02T17:26:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-02T17:28:29 IST" duration-ms="113994" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate slide count, titles, and duration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Slides on DP1 Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Slide durations are not matching expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Slide durations are not matching expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.java.stepDefinition.Slides.i_validate_slide_durations(Slides.java:54)
+at ✽.I validate the duration with the expected duration(file:///C:/Users/Admin/Downloads/MyProject/Multi-Module-Maven-Project/TestAutomation/derived-product-tests1/src/test/java/com/java/features/Slides.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.SlidesRunner@131ef10]" started-at="2025-03-02T17:28:30 IST" name="tearDownClass" finished-at="2025-03-02T17:28:37 IST" duration-ms="7560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.java.runner.SlidesRunner@131ef10]" started-at="2025-03-02T17:28:40 IST" name="quitDriver" finished-at="2025-03-02T17:28:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.java.runner.SlidesRunner -->
+    </test> <!-- Derived Product 1 Tests in Edge -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -29,8 +29,8 @@ public class SetUp{
 	public static Properties configProp; 
 	public static FileInputStream configPropertiesFile;
 	public static FileInputStream objectPropertiesFile;	
-	public static String configPropertiesFilePath = "/src/main/java/com/java/config/page-elements.properties";
-	public static String objectPropertiesFilePath = "/src/main/java/com/java/config/config.properties";
+	public static String objectPropertiesFilePath = "/src/main/java/com/java/config/page-elements.properties";
+	public static String configPropertiesFilePath = "/src/main/java/com/java/config/config.properties";
 	
    private SetUp()
    {

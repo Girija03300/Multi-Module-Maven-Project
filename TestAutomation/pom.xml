@@ -13,9 +13,9 @@
   </properties>
   <modules>
     <module>automation-framework</module>
-    <module>core-product-tests</module>
+   <module>core-product-tests</module>
     <module>derived-product-tests2</module>
-    <!--   <module>derived-product-tests1</module>-->
+    <module>derived-product-tests1</module>
   </modules>
   <dependencies>
     <dependency>

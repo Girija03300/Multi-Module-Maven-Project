@@ -4,21 +4,13 @@
   "deliveredProduct1": "https://www.nba.com/sixers/",
   "deliveredProduct2": "https://www.nba.com/bulls/"
 },
-"CPHomePage":{
-   "title" : "Golden State Warriors"
-},
-"DP2HomePage":{
-	 "title" : "Bulls - The official site of the NBA for the latest NBA Scores"
-},
 "DP1HomePage":{
-	"title" : "Sixers - The official site of the NBA for the latest NBA Scores",
-	"slidesCount" : "5",
-	"slideTitle1" : "Sixers Visit Nets In Brooklyn Tonight",
-	"slideTitle2" : "76ers Sign David Roddy To 10-Day",
-	"slideTitle3" : "76ers sign Justin Edwards to Standard NBA Contract",
-	"slideTitle4" : "Daryl Morey Press Conference Recap Video",
-	"slideTitle5" : "Sixers Sign Chuma Okeke to 10-Day Contract",
-	"slideDurationstart"   :"7",
-	"slideDurationend"   :"12"
+	"slideTitle1" : "PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT",
+	"slideTitle2" : "Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025",
+	"slideTitle3" : "76ers Welcome Alex Reese with Two-Way Contract",
+	"slideTitle4" : "David Roddy Signs Two-Way Contract with 76ers",
+	"slideTitle5" : "76ers Sign Lonnie Walker IV",
+	"slideDurationstart"   :"6",
+	"slideDurationend"   :"15"
 }
 }

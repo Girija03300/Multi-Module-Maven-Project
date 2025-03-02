@@ -16,12 +16,13 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
-  <dependencies>
+    <dependencies>
         <!-- WebDriver Manager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
@@ -35,21 +36,39 @@
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
         </dependency>
-
-        <!-- Extent Reports -->
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>4.0.9</version> 
-        </dependency>
         
+		<dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>2.0.9</version> 
+    </dependency>
+        <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.4.14</version>
+    </dependency>
+        <!-- Extent Reports -->
+      <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
+</dependency>
+
+<dependency>
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extentreports-cucumber7-adapter</artifactId>
+    <version>1.9.1</version> <!-- Use latest version -->
+</dependency>
+
     	<dependency>
     		<groupId>VeevaSystems</groupId>
     		<artifactId>automation-framework</artifactId>
     		<version>0.0.1-SNAPSHOT</version>
-    		
     	</dependency>
-  </dependencies>
+  
+    </dependencies>
+    
+
     <build>
         <plugins>
             <plugin>
@@ -63,6 +82,15 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.3.0</version>
+                 <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -94,6 +122,7 @@
         </execution>
     </executions>
 </plugin>
+
             <plugin>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.12.1</version>
@@ -102,16 +131,6 @@
                 <artifactId>maven-project-info-reports-plugin</artifactId>
                 <version>3.6.1</version>
             </plugin>
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.3.0</version>
-                 <configuration>
-                <suiteXmlFiles>
-                    <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-                </suiteXmlFiles>
-            </configuration>
-            </plugin>
-            
         </plugins>
     </build>
 </project>
