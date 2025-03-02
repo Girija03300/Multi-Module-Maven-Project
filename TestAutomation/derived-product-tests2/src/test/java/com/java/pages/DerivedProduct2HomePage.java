@@ -6,28 +6,40 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.java.dataReader.fileWriter;
+import com.java.base.SetUp;
+import com.java.dataReader.FileWriterUtil;
 import com.java.utils.Utilities;
 
 public class DerivedProduct2HomePage extends Utilities{
-			private String linkFirstPart=objectProp.getProperty("footerLinksFirstPart");
-			private String linkSecondPart=objectProp.getProperty("footerLinksSecondPart");
-			private final String footerLinksCSVPath=configProp.getProperty("footerLinksPath");
+			private String linkFirstPart=SetUp.objectProp.getProperty("footerLinksFirstPart");
+			private String linkSecondPart=SetUp.objectProp.getProperty("footerLinksSecondPart");
+			private final String footerLinksCSVPath=SetUp.configProp.getProperty("footerLinksPath");
 			private List<String> hyperlink = new LinkedList<>();
 			private Set<String> duplicatehyperlinks = new HashSet<>();
-			private fileWriter fw;
-			
-			public DerivedProduct2HomePage(String browserName) 
+			private FileWriterUtil fw;
+			private WebDriver driver;
+			private static ThreadLocal<DerivedProduct2HomePage> DP2HomePage = new ThreadLocal<>();
+			private DerivedProduct2HomePage(WebDriver driver,String browserName) 
 			{
 				super();
+				this.driver=SetUp.getDriver();
 				try {
-					fw= new fileWriter(CurrentDirectory+"/FooterLinks/"+browserName+ footerLinksCSVPath);
+					fw= new FileWriterUtil(SetUp.CURRENTDIRECTORY+"/FooterLinks/"+browserName+ footerLinksCSVPath);
 				} catch (IOException e) {
-				        log.error("Failed to initialize fileWriter: " + e.getMessage());
+					SetUp.log.error("Failed to initialize fileWriter: " + e.getMessage());
 				}
+			}
+			public static DerivedProduct2HomePage getInstance()
+			{
+				if(DP2HomePage.get() == null)
+				{
+				   DP2HomePage.set(new DerivedProduct2HomePage(SetUp.getDriver(),SetUp.getBrowserName()));
+				}
+				return DP2HomePage.get();
 			}
 			public String getDP2HomePageTitle()
 			{		
@@ -52,7 +64,7 @@ public class DerivedProduct2HomePage extends Utilities{
 				List<WebElement> links = totalLinks;
 				for(WebElement link:links)
 				{
-					String hyperlinks = link.getAttribute("href");	
+					String hyperlinks = link.getDomAttribute("href");	
 					hyperlink.add(hyperlinks);
 				}
 			

@@ -1,0 +1,116 @@
+2025-03-02 16:49:26 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 16:49:26 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 16:49:28 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 16:49:28 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 16:49:28 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 16:49:28 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 16:49:35 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 16:49:35 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 16:49:36 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 16:49:36 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 16:49:38 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-03-02 16:49:38 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-03-02 16:49:39 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-03-02 16:49:39 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-03-02 16:50:31 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-03-02 16:50:40 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-03-02 17:00:43 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 17:00:43 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 17:00:45 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 17:00:45 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 17:00:45 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 17:00:45 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:00:52 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 17:00:52 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 17:00:52 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 17:00:52 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 17:00:55 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-03-02 17:00:55 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-03-02 17:00:55 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-03-02 17:00:55 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-03-02 17:01:00 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-03-02 17:01:54 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-03-02 17:01:54 [TestNG-tests-1] INFO  com.java.base.SetUp - Derived Product 2 Home Page was displayed in Chrome
+2025-03-02 17:01:57 [TestNG-tests-2] INFO  com.java.base.SetUp - Derived Product 2 Home Page was displayed in Edge
+2025-03-02 17:01:57 [TestNG-tests-1] INFO  com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-03-02 17:01:57 [TestNG-tests-1] INFO  com.java.base.SetUp - Different links for various categories are visible in Chrome
+2025-03-02 17:01:58 [TestNG-tests-2] INFO  com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-03-02 17:01:58 [TestNG-tests-2] INFO  com.java.base.SetUp - Different links for various categories are visible in Edge
+2025-03-02 17:02:00 [TestNG-tests-1] INFO  com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-03-02 17:02:00 [TestNG-tests-1] INFO  com.java.base.SetUp - No Duplicate hyperlinks found. in Chrome
+2025-03-02 17:02:01 [TestNG-tests-2] INFO  com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-03-02 17:02:01 [TestNG-tests-2] INFO  com.java.base.SetUp - No Duplicate hyperlinks found. in Edge
+2025-03-02 17:03:04 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 17:03:04 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 17:03:06 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 17:03:06 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 17:03:06 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 17:03:06 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:03:13 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 17:03:13 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 17:03:13 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 17:03:13 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 17:03:15 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-03-02 17:03:15 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-03-02 17:03:16 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-03-02 17:03:16 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-03-02 17:03:20 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-03-02 17:03:22 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-03-02 17:03:22 [TestNG-tests-2] INFO  com.java.base.SetUp - Not able to capture the screenshotno such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=133.0.3065.92)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [86388b7fbd8528d9e331b1583909a635, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60526}, msedge: {msedgedriverVersion: 133.0.3065.92 (e8591772eda3..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60526/devtoo..., se:cdpVersion: 133.0.3065.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86388b7fbd8528d9e331b1583909a635 in Edge
+2025-03-02 17:03:22 [TestNG-tests-2] INFO  com.java.base.SetUp - Not able to capture the screenshotno such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=133.0.3065.92)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [86388b7fbd8528d9e331b1583909a635, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60526}, msedge: {msedgedriverVersion: 133.0.3065.92 (e8591772eda3..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60526/devtoo..., se:cdpVersion: 133.0.3065.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86388b7fbd8528d9e331b1583909a635 in Edge
+2025-03-02 17:03:23 [TestNG-tests-1] INFO  com.java.base.SetUp - Not able to capture the screenshotinvalid session id
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b118689f76bbfb069fb33eff07fd148, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60527}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60527/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b118689f76bbfb069fb33eff07fd148 in Chrome
+2025-03-02 17:03:23 [TestNG-tests-1] INFO  com.java.base.SetUp - Not able to capture the screenshotinvalid session id
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b118689f76bbfb069fb33eff07fd148, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60527}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60527/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b118689f76bbfb069fb33eff07fd148 in Chrome
+2025-03-02 17:38:00 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 17:38:00 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 17:38:02 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 17:38:02 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 17:38:02 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 17:38:02 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:38:12 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 17:38:12 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 17:38:12 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 17:38:12 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 17:38:15 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-03-02 17:38:15 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-03-02 17:38:15 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-03-02 17:38:15 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-03-02 17:38:20 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-03-02 17:39:03 [TestNG-tests-2] INFO  com.java.base.SetUp - Derived Product 2 Home Page was displayed in Edge
+2025-03-02 17:39:07 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-03-02 17:39:08 [TestNG-tests-1] INFO  com.java.base.SetUp - Derived Product 2 Home Page was displayed in Chrome
+2025-03-02 17:39:08 [TestNG-tests-2] INFO  com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-03-02 17:39:08 [TestNG-tests-2] INFO  com.java.base.SetUp - Different links for various categories are visible in Edge
+2025-03-02 17:39:10 [TestNG-tests-1] INFO  com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-03-02 17:39:10 [TestNG-tests-1] INFO  com.java.base.SetUp - Different links for various categories are visible in Chrome
+2025-03-02 17:39:12 [TestNG-tests-2] INFO  com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-03-02 17:39:12 [TestNG-tests-2] INFO  com.java.base.SetUp - No Duplicate hyperlinks found. in Edge
+2025-03-02 17:39:13 [TestNG-tests-1] INFO  com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-03-02 17:39:13 [TestNG-tests-1] INFO  com.java.base.SetUp - No Duplicate hyperlinks found. in Chrome

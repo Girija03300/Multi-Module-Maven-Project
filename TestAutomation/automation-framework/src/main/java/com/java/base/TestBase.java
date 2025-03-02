@@ -6,7 +6,7 @@ import org.json.simple.parser.ParseException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 
-import com.java.dataReader.jsonReader;
+import com.java.dataReader.JsonReader;
 import com.java.reports.ExtentReportsGenerator;
 import com.java.utils.Utilities;
 
@@ -16,7 +16,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 
-public class testBase  {
+public class TestBase  {
 	public static String scenarioName;
 
 	//getting scenario name during run time.
@@ -30,21 +30,21 @@ public class testBase  {
 	@Before("@CP2")
 	public void openCoreProductWebSite() throws IOException, ParseException
 	{
-		SetUp.getDriver().get(jsonReader.getDataFromJson("URL", "coreProductURL"));
-		Utilities.log("Navigated to " + jsonReader.getDataFromJson("URL", "coreProductURL"));
+		SetUp.getDriver().get(JsonReader.getDataFromJson("URL", "coreProductURL"));
+		Utilities.log("Navigated to " + JsonReader.getDataFromJson("URL", "coreProductURL"));
 	}
 	//opening derived product 1 application
 	@Before("@DP1")
 	public void openDerivedProduct1WebSite() throws IOException, ParseException
 	{
-		SetUp.getDriver().get(jsonReader.getDataFromJson("URL", "deliveredProduct1"));
-		Utilities.log("Navigated to " + jsonReader.getDataFromJson("URL", "deliveredProduct1"));
+		SetUp.getDriver().get(JsonReader.getDataFromJson("URL", "deliveredProduct1"));
+		Utilities.log("Navigated to " + JsonReader.getDataFromJson("URL", "deliveredProduct1"));
 	}
 	//opening derived product 2 application
 	@Before("@DP2")
 	public void DeliveredProductWebSite() throws IOException, ParseException
 	{
-		SetUp.getDriver().get(jsonReader.getDataFromJson("URL", "deliveredProduct2"));
-		Utilities.log("Navigated to " + jsonReader.getDataFromJson("URL", "deliveredProduct2"));				
+		SetUp.getDriver().get(JsonReader.getDataFromJson("URL", "deliveredProduct2"));
+		Utilities.log("Navigated to " + JsonReader.getDataFromJson("URL", "deliveredProduct2"));				
 	}
 }

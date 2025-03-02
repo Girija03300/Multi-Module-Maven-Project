@@ -2,83 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-12T23:33:32 IST" name="Suite" finished-at="2025-02-12T23:36:32 IST" duration-ms="179695">
+  <suite started-at="2025-03-02T16:38:27 IST" name="Suite" finished-at="2025-03-02T16:40:59 IST" duration-ms="152386">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.VideoFeedsRunner@932bc4a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.VideoFeedsRunner@3514a4c0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.VideoFeedsRunner@3cd3e762]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.VideoFeedsRunner@38afe297]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-02-12T23:33:32 IST" name="Core Product Tests in Edge" finished-at="2025-02-12T23:36:29 IST" duration-ms="176679">
+    <test started-at="2025-03-02T16:38:27 IST" name="Core Product Tests in Chrome" finished-at="2025-03-02T16:40:54 IST" duration-ms="146915">
       <class name="com.java.runner.VideoFeedsRunner">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.VideoFeedsRunner@3514a4c0]" started-at="2025-02-12T23:33:32 IST" name="setup" finished-at="2025-02-12T23:33:48 IST" duration-ms="16264" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.VideoFeedsRunner@3514a4c0]" started-at="2025-02-12T23:33:48 IST" name="setUpClass" finished-at="2025-02-12T23:33:50 IST" duration-ms="1222" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@4d1bf319]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.VideoFeedsRunner@3514a4c0]" started-at="2025-02-12T23:33:50 IST" name="setCucumberTags" finished-at="2025-02-12T23:33:50 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[@CP2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setCucumberTags -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.VideoFeedsRunner@3514a4c0]" started-at="2025-02-12T23:33:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T23:36:29 IST" duration-ms="158858" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Video Feeds in the New & Features section"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Validate Video Feeds on CP Home Page]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.VideoFeedsRunner@3514a4c0]" started-at="2025-02-12T23:36:29 IST" name="tearDownClass" finished-at="2025-02-12T23:36:29 IST" duration-ms="54" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.java.runner.VideoFeedsRunner -->
-      <class name="com.java.base.SetUp">
-        <test-method is-config="true" signature="initalizeFiles()[pri:0, instance:com.java.base.SetUp@7a675056]" started-at="2025-02-12T23:33:31 IST" name="initalizeFiles" finished-at="2025-02-12T23:33:32 IST" duration-ms="395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalizeFiles -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.java.base.SetUp@7a675056]" started-at="2025-02-12T23:36:34 IST" name="quitDriver" finished-at="2025-02-12T23:36:34 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.java.base.SetUp -->
-    </test> <!-- Core Product Tests in Edge -->
-    <test started-at="2025-02-12T23:33:32 IST" name="Core Product Tests in Chrome" finished-at="2025-02-12T23:36:32 IST" duration-ms="179695">
-      <class name="com.java.runner.VideoFeedsRunner">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.VideoFeedsRunner@932bc4a]" started-at="2025-02-12T23:33:32 IST" name="setup" finished-at="2025-02-12T23:33:48 IST" duration-ms="16403" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.VideoFeedsRunner@3cd3e762]" started-at="2025-03-02T16:38:27 IST" name="setup" finished-at="2025-03-02T16:38:37 IST" duration-ms="9724" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,18 +22,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.VideoFeedsRunner@932bc4a]" started-at="2025-02-12T23:33:48 IST" name="setUpClass" finished-at="2025-02-12T23:33:50 IST" duration-ms="1222" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.VideoFeedsRunner@3cd3e762]" started-at="2025-03-02T16:38:37 IST" name="setUpClass" finished-at="2025-03-02T16:38:37 IST" duration-ms="784" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b695b06]]>
+                <![CDATA[org.testng.TestRunner@2e9fda69]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.VideoFeedsRunner@932bc4a]" started-at="2025-02-12T23:33:50 IST" name="setCucumberTags" finished-at="2025-02-12T23:33:50 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.VideoFeedsRunner@3cd3e762]" started-at="2025-03-02T16:38:37 IST" name="setCucumberTags" finished-at="2025-03-02T16:38:37 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCucumberTags -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.VideoFeedsRunner@932bc4a]" started-at="2025-02-12T23:33:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T23:36:32 IST" duration-ms="161829" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.VideoFeedsRunner@3cd3e762]" started-at="2025-03-02T16:38:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-02T16:40:49 IST" duration-ms="131793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,18 +53,83 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Validate Video Feeds on CP Home Page]"]]>
+                <![CDATA["Validate Video Feeds on CP Home Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.VideoFeedsRunner@932bc4a]" started-at="2025-02-12T23:36:32 IST" name="tearDownClass" finished-at="2025-02-12T23:36:32 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.VideoFeedsRunner@3cd3e762]" started-at="2025-03-02T16:40:49 IST" name="tearDownClass" finished-at="2025-03-02T16:40:54 IST" duration-ms="4461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.java.runner.VideoFeedsRunner -->
     </test> <!-- Core Product Tests in Chrome -->
+    <test started-at="2025-03-02T16:38:27 IST" name="Core Product Tests in Edge" finished-at="2025-03-02T16:40:59 IST" duration-ms="152386">
+      <class name="com.java.runner.VideoFeedsRunner">
+        <test-method is-config="true" signature="initalizeFiles()[pri:0, instance:com.java.runner.VideoFeedsRunner@38afe297]" started-at="2025-03-02T16:38:26 IST" name="initalizeFiles" finished-at="2025-03-02T16:38:27 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeFiles -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.java.runner.VideoFeedsRunner@38afe297]" started-at="2025-03-02T16:38:27 IST" name="setup" finished-at="2025-03-02T16:38:34 IST" duration-ms="7163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.java.runner.VideoFeedsRunner@38afe297]" started-at="2025-03-02T16:38:34 IST" name="setUpClass" finished-at="2025-03-02T16:38:37 IST" duration-ms="3307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@17cdf2d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setCucumberTags(java.lang.String)[pri:0, instance:com.java.runner.VideoFeedsRunner@38afe297]" started-at="2025-03-02T16:38:37 IST" name="setCucumberTags" finished-at="2025-03-02T16:38:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@CP2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCucumberTags -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.java.runner.VideoFeedsRunner@38afe297]" started-at="2025-03-02T16:38:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-02T16:40:59 IST" duration-ms="141695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Video Feeds in the New & Features section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Video Feeds on CP Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.java.runner.VideoFeedsRunner@38afe297]" started-at="2025-03-02T16:40:59 IST" name="tearDownClass" finished-at="2025-03-02T16:40:59 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.java.runner.VideoFeedsRunner@38afe297]" started-at="2025-03-02T16:41:00 IST" name="quitDriver" finished-at="2025-03-02T16:41:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.java.runner.VideoFeedsRunner -->
+    </test> <!-- Core Product Tests in Edge -->
   </suite> <!-- Suite -->
 </testng-results>

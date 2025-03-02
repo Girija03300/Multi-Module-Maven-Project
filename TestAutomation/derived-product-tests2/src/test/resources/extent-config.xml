@@ -1,0 +1,35 @@
+<extentreports>
+    <configuration>
+        <!-- Report Theme (STANDARD or DARK) -->
+        <theme>DARK</theme>
+        
+        <!-- Document Title (Seen on browser tab) -->
+        <documentTitle>Automation Test Report</documentTitle>
+
+        <!-- Report Name (Displayed at the top of the report) -->
+        <reportName>Cucumber Extent Report</reportName>
+
+        <!-- Timestamp Format -->
+        <timeStampFormat>yyyy-MM-dd HH:mm:ss</timeStampFormat>
+
+        <!-- Set Chart Visibility in Dashboard -->
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Enable Logs -->
+        <enableLogs>true</enableLogs>
+
+        <!-- Custom CSS (Optional, to style the report) -->
+        <styles>
+            body { font-family: Arial, sans-serif; }
+            .report-name { color: #00bcd4; }
+        </styles>
+
+        <!-- Custom JavaScript (Optional, to add interactions) -->
+        <scripts>
+            console.log('Extent Report Loaded Successfully');
+        </scripts>
+    </configuration>
+</extentreports>

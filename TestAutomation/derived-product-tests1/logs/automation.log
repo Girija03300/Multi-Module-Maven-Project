@@ -1,0 +1,147 @@
+2025-03-02 17:15:41 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 17:15:41 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 17:15:44 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 17:15:44 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 17:15:53 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 17:15:54 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 17:15:55 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Chrome
+2025-03-02 17:15:56 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Chrome
+2025-03-02 17:15:58 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 17:15:58 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:16:03 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 17:16:03 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 17:16:03 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Edge
+2025-03-02 17:16:03 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Edge
+2025-03-02 17:16:52 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Chrome
+2025-03-02 17:17:09 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Edge
+2025-03-02 17:19:52 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 17:19:52 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 17:19:56 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 17:19:56 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 17:19:56 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:19:56 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 17:20:07 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 17:20:07 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 17:20:07 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 17:20:07 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 17:20:10 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Edge
+2025-03-02 17:20:10 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Chrome
+2025-03-02 17:20:11 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Chrome
+2025-03-02 17:20:11 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Edge
+2025-03-02 17:21:15 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Chrome
+2025-03-02 17:21:20 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Edge
+2025-03-02 17:21:22 [TestNG-tests-1] INFO  com.java.base.SetUp - Slides are displayed in Home Page in Chrome
+2025-03-02 17:21:23 [TestNG-tests-1] INFO  com.java.base.SetUp - Total Number number of Slides present are: 5 in Chrome
+2025-03-02 17:21:25 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT in Chrome
+2025-03-02 17:21:25 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 in Chrome
+2025-03-02 17:21:25 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: 76ers Welcome Alex Reese with Two-Way Contract in Chrome
+2025-03-02 17:21:26 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: David Roddy Signs Two-Way Contract with 76ers in Chrome
+2025-03-02 17:21:26 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: 76ers Sign Lonnie Walker IV in Chrome
+2025-03-02 17:21:26 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide titles are matching with the expected data in Chrome
+2025-03-02 17:21:27 [TestNG-tests-2] INFO  com.java.base.SetUp - Slides are displayed in Home Page in Edge
+2025-03-02 17:21:28 [TestNG-tests-2] INFO  com.java.base.SetUp - Total Number number of Slides present are: 5 in Edge
+2025-03-02 17:21:30 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT in Edge
+2025-03-02 17:21:30 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 in Edge
+2025-03-02 17:21:31 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: 76ers Welcome Alex Reese with Two-Way Contract in Edge
+2025-03-02 17:21:31 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: David Roddy Signs Two-Way Contract with 76ers in Edge
+2025-03-02 17:21:31 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: 76ers Sign Lonnie Walker IV in Edge
+2025-03-02 17:21:31 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide titles are matching with the expected data in Edge
+2025-03-02 17:22:57 [TestNG-tests-1] INFO  com.java.base.SetUp - 76ers Sign Lonnie Walker IV slide duration is 10 in Chrome
+2025-03-02 17:22:57 [TestNG-tests-1] INFO  com.java.base.SetUp - David Roddy Signs Two-Way Contract with 76ers slide duration is 10 in Chrome
+2025-03-02 17:22:57 [TestNG-tests-1] INFO  com.java.base.SetUp - Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 slide duration is 10 in Chrome
+2025-03-02 17:22:57 [TestNG-tests-1] INFO  com.java.base.SetUp - 76ers Welcome Alex Reese with Two-Way Contract slide duration is 10 in Chrome
+2025-03-02 17:22:57 [TestNG-tests-1] INFO  com.java.base.SetUp - PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT slide duration is 8 in Chrome
+2025-03-02 17:22:57 [TestNG-tests-1] INFO  com.java.base.SetUp - Slides duration is matching with the expected data in Chrome
+2025-03-02 17:23:00 [TestNG-tests-2] INFO  com.java.base.SetUp - 76ers Sign Lonnie Walker IV slide duration is 10 in Edge
+2025-03-02 17:23:00 [TestNG-tests-2] INFO  com.java.base.SetUp - David Roddy Signs Two-Way Contract with 76ers slide duration is 10 in Edge
+2025-03-02 17:23:00 [TestNG-tests-2] INFO  com.java.base.SetUp - Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 slide duration is 10 in Edge
+2025-03-02 17:23:00 [TestNG-tests-2] INFO  com.java.base.SetUp - 76ers Welcome Alex Reese with Two-Way Contract slide duration is 10 in Edge
+2025-03-02 17:23:00 [TestNG-tests-2] INFO  com.java.base.SetUp - PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT slide duration is 10 in Edge
+2025-03-02 17:23:00 [TestNG-tests-2] INFO  com.java.base.SetUp - Slides duration is matching with the expected data in Edge
+2025-03-02 17:26:14 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 17:26:14 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 17:26:19 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 17:26:19 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 17:26:20 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:26:20 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 17:26:32 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 17:26:32 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 17:26:32 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 17:26:32 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 17:26:35 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Chrome
+2025-03-02 17:26:35 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Edge
+2025-03-02 17:26:35 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Edge
+2025-03-02 17:26:35 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Chrome
+2025-03-02 17:27:29 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Chrome
+2025-03-02 17:27:30 [TestNG-tests-1] INFO  com.java.base.SetUp - Slides are displayed in Home Page in Chrome
+2025-03-02 17:27:32 [TestNG-tests-1] INFO  com.java.base.SetUp - Total Number number of Slides present are: 5 in Chrome
+2025-03-02 17:27:34 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT in Chrome
+2025-03-02 17:27:34 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 in Chrome
+2025-03-02 17:27:34 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: 76ers Welcome Alex Reese with Two-Way Contract in Chrome
+2025-03-02 17:27:35 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: David Roddy Signs Two-Way Contract with 76ers in Chrome
+2025-03-02 17:27:35 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: 76ers Sign Lonnie Walker IV in Chrome
+2025-03-02 17:27:35 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide titles are matching with the expected data in Chrome
+2025-03-02 17:27:37 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Edge
+2025-03-02 17:27:38 [TestNG-tests-2] INFO  com.java.base.SetUp - Slides are displayed in Home Page in Edge
+2025-03-02 17:27:38 [TestNG-tests-2] INFO  com.java.base.SetUp - Total Number number of Slides present are: 5 in Edge
+2025-03-02 17:27:41 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT in Edge
+2025-03-02 17:27:42 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 in Edge
+2025-03-02 17:27:42 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: 76ers Welcome Alex Reese with Two-Way Contract in Edge
+2025-03-02 17:27:42 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: David Roddy Signs Two-Way Contract with 76ers in Edge
+2025-03-02 17:27:42 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: 76ers Sign Lonnie Walker IV in Edge
+2025-03-02 17:27:43 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide titles are matching with the expected data in Edge
+2025-03-02 17:28:27 [TestNG-tests-1] INFO  com.java.base.SetUp - 76ers Sign Lonnie Walker IV slide duration is 10 in Chrome
+2025-03-02 17:28:27 [TestNG-tests-1] INFO  com.java.base.SetUp - David Roddy Signs Two-Way Contract with 76ers slide duration is 10 in Chrome
+2025-03-02 17:28:27 [TestNG-tests-1] INFO  com.java.base.SetUp - Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 slide duration is 10 in Chrome
+2025-03-02 17:28:27 [TestNG-tests-1] INFO  com.java.base.SetUp - 76ers Welcome Alex Reese with Two-Way Contract slide duration is 10 in Chrome
+2025-03-02 17:28:27 [TestNG-tests-1] INFO  com.java.base.SetUp - PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT slide duration is 10 in Chrome
+2025-03-02 17:28:27 [TestNG-tests-1] INFO  com.java.base.SetUp - Slides duration is matching with the expected data in Chrome
+2025-03-02 17:28:28 [TestNG-tests-2] INFO  com.java.base.SetUp - 76ers Sign Lonnie Walker IV slide duration is 10 in Edge
+2025-03-02 17:28:28 [TestNG-tests-2] INFO  com.java.base.SetUp - David Roddy Signs Two-Way Contract with 76ers slide duration is 10 in Edge
+2025-03-02 17:28:28 [TestNG-tests-2] INFO  com.java.base.SetUp - Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 slide duration is 10 in Edge
+2025-03-02 17:28:28 [TestNG-tests-2] INFO  com.java.base.SetUp - 76ers Welcome Alex Reese with Two-Way Contract slide duration is 10 in Edge
+2025-03-02 17:28:28 [TestNG-tests-2] INFO  com.java.base.SetUp - PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT slide duration is 5 in Edge
+2025-03-02 17:39:26 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 17:39:26 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 17:39:29 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 17:39:29 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 17:39:31 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 17:39:31 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 17:39:38 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 17:39:38 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 17:39:39 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 17:39:39 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 17:39:41 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Chrome
+2025-03-02 17:39:41 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP1 in Edge
+2025-03-02 17:39:42 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Chrome
+2025-03-02 17:39:42 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Validate slide count, titles, and duration in Edge
+2025-03-02 17:40:34 [TestNG-tests-1] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Chrome
+2025-03-02 17:40:34 [TestNG-tests-2] INFO  com.java.base.SetUp - Navigated to https://www.nba.com/sixers/ in Edge
+2025-03-02 17:40:37 [TestNG-tests-1] INFO  com.java.base.SetUp - Slides are displayed in Home Page in Chrome
+2025-03-02 17:40:37 [TestNG-tests-2] INFO  com.java.base.SetUp - Slides are displayed in Home Page in Edge
+2025-03-02 17:40:37 [TestNG-tests-2] INFO  com.java.base.SetUp - Total Number number of Slides present are: 5 in Edge
+2025-03-02 17:40:37 [TestNG-tests-1] INFO  com.java.base.SetUp - Total Number number of Slides present are: 5 in Chrome
+2025-03-02 17:40:40 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT in Edge
+2025-03-02 17:40:40 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 in Edge
+2025-03-02 17:40:40 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT in Chrome
+2025-03-02 17:40:40 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 in Chrome
+2025-03-02 17:40:41 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: 76ers Welcome Alex Reese with Two-Way Contract in Edge
+2025-03-02 17:40:41 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: 76ers Welcome Alex Reese with Two-Way Contract in Chrome
+2025-03-02 17:40:41 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: David Roddy Signs Two-Way Contract with 76ers in Edge
+2025-03-02 17:40:41 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: David Roddy Signs Two-Way Contract with 76ers in Chrome
+2025-03-02 17:40:41 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide title: 76ers Sign Lonnie Walker IV in Edge
+2025-03-02 17:40:41 [TestNG-tests-2] INFO  com.java.base.SetUp - Slide titles are matching with the expected data in Edge
+2025-03-02 17:40:41 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide title: 76ers Sign Lonnie Walker IV in Chrome
+2025-03-02 17:40:41 [TestNG-tests-1] INFO  com.java.base.SetUp - Slide titles are matching with the expected data in Chrome
+2025-03-02 17:41:33 [TestNG-tests-2] INFO  com.java.base.SetUp - 76ers Sign Lonnie Walker IV slide duration is 10 in Edge
+2025-03-02 17:41:33 [TestNG-tests-2] INFO  com.java.base.SetUp - David Roddy Signs Two-Way Contract with 76ers slide duration is 10 in Edge
+2025-03-02 17:41:33 [TestNG-tests-2] INFO  com.java.base.SetUp - Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 slide duration is 10 in Edge
+2025-03-02 17:41:33 [TestNG-tests-2] INFO  com.java.base.SetUp - 76ers Welcome Alex Reese with Two-Way Contract slide duration is 10 in Edge
+2025-03-02 17:41:33 [TestNG-tests-2] INFO  com.java.base.SetUp - PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT slide duration is 10 in Edge
+2025-03-02 17:41:33 [TestNG-tests-2] INFO  com.java.base.SetUp - Slides duration is matching with the expected data in Edge
+2025-03-02 17:41:33 [TestNG-tests-1] INFO  com.java.base.SetUp - 76ers Sign Lonnie Walker IV slide duration is 10 in Chrome
+2025-03-02 17:41:33 [TestNG-tests-1] INFO  com.java.base.SetUp - David Roddy Signs Two-Way Contract with 76ers slide duration is 10 in Chrome
+2025-03-02 17:41:33 [TestNG-tests-1] INFO  com.java.base.SetUp - Sixers vs. Stephen Curry and Golden State Warriors: “Spirit of 76” City Edition Game Preview, Injury Report, and How to Watch 03/01/2025 slide duration is 10 in Chrome
+2025-03-02 17:41:33 [TestNG-tests-1] INFO  com.java.base.SetUp - 76ers Welcome Alex Reese with Two-Way Contract slide duration is 10 in Chrome
+2025-03-02 17:41:33 [TestNG-tests-1] INFO  com.java.base.SetUp - PHILADELPHIA 76ERS SIGN JALEN HOOD-SCHIFINO TO TWO-WAY CONTRACT slide duration is 10 in Chrome
+2025-03-02 17:41:33 [TestNG-tests-1] INFO  com.java.base.SetUp - Slides duration is matching with the expected data in Chrome

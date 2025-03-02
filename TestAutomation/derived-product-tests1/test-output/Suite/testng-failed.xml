@@ -12,9 +12,11 @@
         <methods>
           <include name="setUpClass"/>
           <include name="setup"/>
-          <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="initalizeFiles"/>
           <include name="setCucumberTags"/>
+          <include name="quitDriver"/>
         </methods>
       </class> <!-- com.java.runner.SlidesRunner -->
     </classes>
