@@ -3,6 +3,7 @@ package com.java.utils;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.List;
@@ -25,6 +26,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
+import com.aventstack.extentreports.gherkin.model.Scenario;
 import com.java.base.SetUp;
 import com.java.base.PageBase;
 import com.java.reports.ExtentReportsGenerator;
@@ -135,22 +138,44 @@ public class Utilities extends PageBase{
 		        return "";
 		    }
 	}
+	public static String captureScreenshotFile(WebDriver driver) 
+	{
+		 try {
+			 String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+	            String screenshotPath = "target/screenshots/screenshot"+ "_" + timestamp + ".png";
+	            File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	            File destFile = new File(screenshotPath);
+	            FileUtils.copyFile(srcFile, destFile);
+	            return screenshotPath; 
+		 }
+		 catch (Exception e) {
+		        log("Not able to capture the screenshot" + e.getMessage());
+		        return "";
+		    }
+	}
 	
 	public ExtentTest LoginReport(String text) 
 	{			
-		SetUp.log.info(text + " in " + SetUp.getBrowserName());
-		try {
-			ExtentReportsGenerator.test.get().log(Status.PASS,text + " in " + SetUp.getBrowserName(),MediaEntityBuilder.createScreenCaptureFromBase64String(captureScreenshot()).build());
+		SetUp.log.info(text + " in " + SetUp.getBrowserName());		
+		ExtentReportsGenerator.getTest().log(Status.PASS,text + " in " + SetUp.getBrowserName(),MediaEntityBuilder.createScreenCaptureFromBase64String(captureScreenshot()).build());					
+	    ExtentCucumberAdapter.addTestStepLog("✅ " + text + " in " + SetUp.getBrowserName());	
+	    try {
+	    	  String screenshotPath = captureScreenshotFile(SetUp.getDriver());
+	          if (screenshotPath != null) {
+	              ExtentCucumberAdapter.addTestStepScreenCaptureFromPath("../" + screenshotPath);
+	          }
 		} catch (IOException e) {
-			SetUp.log.error("Error while updating the extent reports" + e.getMessage(),e);
-		}		
-			return ExtentReportsGenerator.test.get();
+			SetUp.log.info("Not able to attach screenshot");
+		}
+	   return ExtentReportsGenerator.test.get();
+		
 	}	
 	
 	public static void log(String element)
 	{		
 		SetUp.log.info(element +" in " + SetUp.getBrowserName());
 		ExtentReportsGenerator.test.get().log(Status.PASS,element);
+		ExtentCucumberAdapter.addTestStepLog("✅ " + element + " in " + SetUp.getBrowserName());	
 	}
 	
 	public void refreshPage()

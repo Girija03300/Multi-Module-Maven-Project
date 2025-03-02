@@ -19,10 +19,10 @@ import java.util.concurrent.TimeUnit;
 public class Slides {
 	DerivedProduct1HomePage DP1HomePage;
 	int totalNumberOfSlides;
-    @Given("I am on DP1 home page")
-    public void i_am_on_dp1_home_page() throws IOException, ParseException {
+    @Given("I am on DP1 home page with title \"(.*)\"")
+    public void i_am_on_dp1_home_page(String title){
     	DP1HomePage = new DerivedProduct1HomePage();
-    	Assert.assertTrue(DP1HomePage.getDP1HomePageTitle().contains(JsonReader.getDataFromJson("DP1HomePage", "title")));
+    	Assert.assertTrue(DP1HomePage.getDP1HomePageTitle().contains(title));
     }
 
     @When("I count the number of slides present below the Tickets menu")

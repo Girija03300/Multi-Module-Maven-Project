@@ -22,14 +22,13 @@ public class DerivedProduct2HomePage extends Utilities{
 			private Set<String> duplicatehyperlinks = new HashSet<>();
 			private FileWriterUtil fw;
 			private WebDriver driver;
-			//private static DerivedProduct2HomePage DP2HomePage;
 			private static ThreadLocal<DerivedProduct2HomePage> DP2HomePage = new ThreadLocal<>();
 			private DerivedProduct2HomePage(WebDriver driver,String browserName) 
 			{
 				super();
 				this.driver=SetUp.getDriver();
 				try {
-					fw= new FileWriterUtil(SetUp.CurrentDirectory+"/FooterLinks/"+browserName+ footerLinksCSVPath);
+					fw= new FileWriterUtil(SetUp.CURRENTDIRECTORY+"/FooterLinks/"+browserName+ footerLinksCSVPath);
 				} catch (IOException e) {
 					SetUp.log.error("Failed to initialize fileWriter: " + e.getMessage());
 				}
@@ -38,7 +37,6 @@ public class DerivedProduct2HomePage extends Utilities{
 			{
 				if(DP2HomePage.get() == null)
 				{
-				  // DP2HomePage =  new DerivedProduct2HomePage(SetUp.getBrowserName());
 				   DP2HomePage.set(new DerivedProduct2HomePage(SetUp.getDriver(),SetUp.getBrowserName()));
 				}
 				return DP2HomePage.get();
@@ -66,7 +64,7 @@ public class DerivedProduct2HomePage extends Utilities{
 				List<WebElement> links = totalLinks;
 				for(WebElement link:links)
 				{
-					String hyperlinks = link.getAttribute("href");	
+					String hyperlinks = link.getDomAttribute("href");	
 					hyperlink.add(hyperlinks);
 				}
 			

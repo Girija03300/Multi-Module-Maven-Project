@@ -1,5 +1,5 @@
-package com.java.runner;
-import io.cucumber.testng.CucumberOptions;
+  package com.java.runner;
+   import io.cucumber.testng.CucumberOptions;
          import io.cucumber.testng.AbstractTestNGCucumberTests;
          import org.testng.annotations.BeforeClass;
          import org.testng.annotations.BeforeTest;
@@ -12,27 +12,34 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
-         @CucumberOptions(
-             features = "src/test/java/com/java/features/Footers.feature",
-             glue = {"com.java.base", "com.java.stepDefinition"}
-         )
+     @CucumberOptions(
+          features = "src/test/java/com/java/features/Footers.feature",
+          glue = {"com.java.base", "com.java.stepDefinition"},
+          plugin = {
+         			"pretty",
+         			 "json:target/cucumber.json",
+         			 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+         			 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+         			    },
+   	    monochrome = true
+      )
          public class FootersRunner extends AbstractTestNGCucumberTests {
-           @BeforeSuite
-       	public void initalizeFiles() throws IOException
-       	{
-          	SetUp.getPath();				//returns current directory path
-          	SetUp.initializeLogs();			//Initializes log4j
-          	SetUp.readProperties();			//Setting up the properties file to read xpaths and configurations from OR.properties and config.properties
-             ExtentReportsGenerator.initializeReport();
-       	}
+         @BeforeSuite
+      	public void initalizeFiles() throws IOException
+      	{
+         SetUp.getPath();				//returns current directory path
+      	 SetUp.readProperties();			//Setting up the properties file to read xpaths and configurations from OR.properties and config.properties
+         ExtentReportsGenerator.initializeReport();
+      	}
+
           @Parameters("browser")
           @BeforeTest
           public void setup(String browserName) {
+
          	 SetUp.getInstance().initialiseBrowser(browserName);
               SetUp.currentBrowserName.set(browserName);
               SetUp.setupBrowserproperties();
           }
-
           @BeforeClass
           @Parameters("cucumber.options")
           public void setCucumberTags(String cucumberTags) {
@@ -43,8 +50,9 @@ import org.testng.annotations.BeforeTest;
                   System.out.println("No tags are specified");
               }
           }
+
           @AfterSuite
-          public void quitDriver() {
-          	 SetUp.get().remove();
-            }
-      }
+        public void quitDriver() {
+        	 SetUp.get().remove();
+          }
+         }

@@ -92,27 +92,24 @@ public class DynamicTestRunner {
 			import org.testng.annotations.BeforeSuite;
 			import org.testng.annotations.BeforeTest;
 
-            @CucumberOptions(
-                features = "src/test/java/com/java/features/%s",
-                glue = {"com.java.base", "com.java.stepDefinition"},
-                plugin = {
-         	        "pretty",
-         	        "html:reports/cucumber-reports/CucumberReport.html",
-         	        "json:reports/cucumber-reports/CucumberReport.json",
-         	       // "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-         	       // "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-         	        
-         	    },
-         	    monochrome = true
-            )
+        @CucumberOptions(
+             features = "src/test/java/com/java/features/%s",
+             glue = {"com.java.base", "com.java.stepDefinition"},
+             plugin = {
+            			"pretty",
+            			 "json:target/cucumber.json",
+            			 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+            			 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"  
+            			    },
+      	    monochrome = true
+         )
             public class %s extends AbstractTestNGCucumberTests {
             @BeforeSuite
          	public void initalizeFiles() throws IOException
          	{
-            	SetUp.getPath();				//returns current directory path
-            	SetUp.initializeLogs();			//Initializes log4j
-            	SetUp.readProperties();			//Setting up the properties file to read xpaths and configurations from OR.properties and config.properties	
-                ExtentReportsGenerator.initializeReport();
+            SetUp.getPath();				//returns current directory path
+         	SetUp.readProperties();			//Setting up the properties file to read xpaths and configurations from OR.properties and config.properties
+            ExtentReportsGenerator.initializeReport();
          	}
 
              @Parameters("browser")

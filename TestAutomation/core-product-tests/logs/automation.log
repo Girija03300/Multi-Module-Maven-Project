@@ -1,0 +1,40 @@
+2025-03-02 16:14:26 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 16:14:26 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 16:14:27 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 16:14:28 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 16:14:32 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 16:14:32 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 16:14:33 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 16:14:33 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 16:14:36 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 16:14:36 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 16:14:37 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-03-02 16:14:37 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-03-02 16:21:52 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 16:21:52 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 16:21:55 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 16:21:55 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 16:21:55 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 16:21:55 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 16:22:02 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 16:22:02 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 16:22:02 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 16:22:02 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 16:22:05 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-03-02 16:22:05 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-03-02 16:22:06 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Edge
+2025-03-02 16:22:06 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Chrome
+2025-03-02 16:27:41 [main] INFO  com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-02 16:27:41 [main] INFO  com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-02 16:27:43 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.141 (resolved driver for Chrome 133)
+2025-03-02 16:27:43 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.92 (resolved driver for Edge 133)
+2025-03-02 16:27:43 [TestNG-tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\133.0.6943.141\chromedriver.exe
+2025-03-02 16:27:43 [TestNG-tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Admin\.cache\selenium\msedgedriver\win64\133.0.3065.92\msedgedriver.exe
+2025-03-02 16:27:50 [TestNG-tests-1] INFO  com.java.base.SetUp - Chrome Browser was initialised
+2025-03-02 16:27:50 [TestNG-tests-2] INFO  com.java.base.SetUp - Edge Browser was initialised
+2025-03-02 16:27:50 [TestNG-tests-1] INFO  com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-02 16:27:51 [TestNG-tests-2] INFO  com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-02 16:27:53 [TestNG-tests-2] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Edge
+2025-03-02 16:27:53 [TestNG-tests-1] INFO  com.java.base.SetUp - Cucumber Tags Set at Runtime as @CP2 in Chrome
+2025-03-02 16:27:54 [TestNG-tests-2] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Edge
+2025-03-02 16:27:54 [TestNG-tests-1] INFO  com.java.base.SetUp - Running Scenario Verify Video Feeds in the New & Features section in Chrome

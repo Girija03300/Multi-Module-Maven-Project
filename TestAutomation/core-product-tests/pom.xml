@@ -33,31 +33,32 @@
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
         </dependency>
-
-        <!-- Cucumber -->
+        
+		<dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>2.0.9</version> 
+    </dependency>
         <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>7.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-testng</artifactId>
-            <version>7.0.0</version>
-        </dependency>
-
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.4.14</version>
+    </dependency>
         <!-- Extent Reports -->
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>4.0.9</version> 
-        </dependency>
+      <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
+</dependency>
+
 <dependency>
-	<groupId>log4j</groupId>
-	<artifactId>log4j</artifactId>
-	<version>1.2.17</version>
-	</dependency>
-	
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extentreports-cucumber7-adapter</artifactId>
+    <version>1.9.1</version> <!-- Use latest version -->
+</dependency>
+
+  
+
     	<dependency>
     		<groupId>VeevaSystems</groupId>
     		<artifactId>automation-framework</artifactId>
@@ -102,6 +103,25 @@
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>3.1.2</version>
             </plugin>
+            <plugin>
+    <groupId>net.masterthought</groupId>
+    <artifactId>maven-cucumber-reporting</artifactId>
+    <version>5.7.4</version>
+    <executions>
+        <execution>
+            <phase>verify</phase>
+            <goals>
+                <goal>generate</goal>
+            </goals>
+            <configuration>
+                <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
+                <jsonFiles>${project.build.directory}/cucumber-reports/*.json</jsonFiles>
+                <reportName>Cucumber Parallel Test Report</reportName>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+
             <plugin>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.12.1</version>

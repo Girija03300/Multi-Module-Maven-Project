@@ -7,15 +7,13 @@ import java.io.IOException;
 import java.util.Properties;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.testng.annotations.AfterSuite;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 public class SetUp{
@@ -23,47 +21,38 @@ public class SetUp{
 	private ChromeOptions chromeOptions;
 	private EdgeOptions edgeOptions;
 	public static  String BaseDirectory;
-	private static final String log4J = "/src/main/java/com/java/logs/log4j.properties";
-	public static final String CurrentDirectory=System.getProperty("user.dir");
-	public static Logger log=Logger.getLogger(SetUp.class);
+	public static final String CURRENTDIRECTORY=System.getProperty("user.dir");
+	public static Logger log =LoggerFactory.getLogger(SetUp.class);
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>(); 
 	public static ThreadLocal<String> currentBrowserName = new ThreadLocal<>();
 	public static Properties objectProp; 	
 	public static Properties configProp; 
 	public static FileInputStream configPropertiesFile;
 	public static FileInputStream objectPropertiesFile;	
+	public static String configPropertiesFilePath = "/src/main/java/com/java/config/page-elements.properties";
+	public static String objectPropertiesFilePath = "/src/main/java/com/java/config/config.properties";
 	
    private SetUp()
    {
 	   
-   }
-	
+   }	
 	public static synchronized SetUp getInstance() {
         if (setUp.get() == null) {
         	setUp.set(new SetUp());
         }
         return setUp.get();
     }
-	
-	public static void initializeLogs()
-	{
-		
-		PropertyConfigurator.configure(BaseDirectory+log4J);
-	}
-
-		
+			
 	public static void setupBrowserproperties()			
 	{
-		if (getDriver() != null) {
 		getDriver().manage().window().maximize();
 		log.info(getBrowserName() + "Browser was maximized");		
 		getDriver().manage().deleteAllCookies();
-		}
 	}
 	
 	public static void getPath()
 	{
-        Path automationFrameworkPath = Paths.get(CurrentDirectory, "..", "automation-framework").normalize();
+        Path automationFrameworkPath = Paths.get(CURRENTDIRECTORY, "..", "automation-framework").normalize();
         BaseDirectory=automationFrameworkPath.toAbsolutePath().toString();    
 	}
 	
@@ -71,8 +60,8 @@ public class SetUp{
 	{
 		objectProp = new Properties();
 		configProp = new Properties();
-		objectPropertiesFile = new FileInputStream(BaseDirectory + "/src/main/java/com/java/config/page-elements.properties");
-		configPropertiesFile = new FileInputStream(BaseDirectory + "/src/main/java/com/java/config/config.properties");
+		objectPropertiesFile = new FileInputStream(BaseDirectory + objectPropertiesFilePath);
+		configPropertiesFile = new FileInputStream(BaseDirectory + configPropertiesFilePath);
 		objectProp.load(objectPropertiesFile);
 		log.info("Initialised properties file containing xpaths");
 		configProp.load(configPropertiesFile);

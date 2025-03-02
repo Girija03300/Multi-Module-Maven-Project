@@ -952,3 +952,103 @@
 2025-03-01 19:01:32 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
 2025-03-01 19:01:32 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
 2025-03-01 19:01:32 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-03-01 23:00:04 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-01 23:00:04 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-01 23:02:25 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-01 23:02:25 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-01 23:03:31 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-01 23:03:31 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-01 23:03:40 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-03-01 23:03:40 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-03-01 23:03:40 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-01 23:03:40 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-01 23:03:42 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-03-01 23:03:42 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-03-01 23:03:43 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-03-01 23:03:43 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-03-01 23:04:15 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-03-01 23:04:15 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-03-01 23:04:15 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed in Edge
+2025-03-01 23:04:15 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed in Chrome
+2025-03-01 23:04:15 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-03-01 23:04:15 [INFO] com.java.base.SetUp - Different links for various categories are visible in Chrome
+2025-03-01 23:04:16 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-03-01 23:04:16 [INFO] com.java.base.SetUp - Different links for various categories are visible in Edge
+2025-03-01 23:04:19 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-03-01 23:04:19 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-03-01 23:04:19 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-03-01 23:04:19 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-03-01 23:04:19 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-03-01 23:04:19 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-03-01 23:16:11 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-01 23:16:11 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-01 23:16:20 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-03-01 23:16:20 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-03-01 23:16:20 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-01 23:16:21 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-01 23:16:23 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-03-01 23:16:23 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-03-01 23:16:23 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-03-01 23:16:23 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-03-01 23:16:57 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-03-01 23:16:57 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed in Edge
+2025-03-01 23:16:58 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-03-01 23:16:58 [INFO] com.java.base.SetUp - Different links for various categories are visible in Edge
+2025-03-01 23:17:03 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-03-01 23:17:03 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-03-01 23:17:03 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-03-01 23:17:03 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-03-01 23:17:03 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed in Chrome
+2025-03-01 23:17:04 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-03-01 23:17:05 [INFO] com.java.base.SetUp - Different links for various categories are visible in Chrome
+2025-03-01 23:17:07 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-03-01 23:17:07 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-03-01 23:17:07 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-03-01 23:20:08 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-01 23:20:08 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-01 23:20:18 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-03-01 23:20:18 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-03-01 23:20:18 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-01 23:20:18 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-01 23:20:20 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-03-01 23:20:20 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-03-01 23:20:21 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-03-01 23:20:21 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-03-01 23:20:52 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-03-01 23:20:54 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed in Chrome
+2025-03-01 23:20:56 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-03-01 23:20:56 [INFO] com.java.base.SetUp - Different links for various categories are visible in Chrome
+2025-03-01 23:21:00 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-03-01 23:21:00 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed in Edge
+2025-03-01 23:21:01 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-03-01 23:21:01 [INFO] com.java.base.SetUp - Different links for various categories are visible in Edge
+2025-03-01 23:21:05 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-03-01 23:21:05 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-03-01 23:21:05 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome
+2025-03-01 23:21:14 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-03-01 23:21:14 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-03-01 23:21:14 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-03-01 23:31:10 [INFO] com.java.base.SetUp - Initialised properties file containing xpaths
+2025-03-01 23:31:10 [INFO] com.java.base.SetUp - Initialised properties file containing configurations
+2025-03-01 23:31:21 [INFO] com.java.base.SetUp - Edge Browser was initialised
+2025-03-01 23:31:21 [INFO] com.java.base.SetUp - Chrome Browser was initialised
+2025-03-01 23:31:21 [INFO] com.java.base.SetUp - EdgeBrowser was maximized
+2025-03-01 23:31:21 [INFO] com.java.base.SetUp - ChromeBrowser was maximized
+2025-03-01 23:31:24 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Chrome
+2025-03-01 23:31:24 [INFO] com.java.base.SetUp - Cucumber Tags Set at Runtime as @DP2 in Edge
+2025-03-01 23:31:25 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Edge
+2025-03-01 23:31:25 [INFO] com.java.base.SetUp - Running Scenario Verify hyperlinks in the footer and check for duplicates in Chrome
+2025-03-01 23:32:01 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Edge
+2025-03-01 23:32:02 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed in Edge
+2025-03-01 23:32:02 [INFO] com.java.base.SetUp - Navigated to https://www.nba.com/bulls/ in Chrome
+2025-03-01 23:32:02 [INFO] com.java.base.SetUp - Derived Product 2 Home Page was displayed in Chrome
+2025-03-01 23:32:03 [INFO] com.java.base.SetUp - Scrolled down to footer section in Edge
+2025-03-01 23:32:03 [INFO] com.java.base.SetUp - Different links for various categories are visible in Edge
+2025-03-01 23:32:04 [INFO] com.java.base.SetUp - Scrolled down to footer section in Chrome
+2025-03-01 23:32:05 [INFO] com.java.base.SetUp - Different links for various categories are visible in Chrome
+2025-03-01 23:32:08 [INFO] com.java.base.SetUp - Hyper Links are written to ChromefooterLinks.csv CSV File in Chrome
+2025-03-01 23:32:08 [INFO] com.java.base.SetUp - Hyper Links are written to EdgefooterLinks.csv CSV File in Edge
+2025-03-01 23:32:08 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Edge
+2025-03-01 23:32:08 [INFO] com.java.base.SetUp - Duplicate hyperlinks are present! in Chrome
+2025-03-01 23:32:08 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Edge
+2025-03-01 23:32:08 [INFO] com.java.base.SetUp - Duplicate hyper links are https://www.nba.com/accessibility in Chrome

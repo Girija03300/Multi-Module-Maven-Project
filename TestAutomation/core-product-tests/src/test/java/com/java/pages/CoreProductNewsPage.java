@@ -6,14 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.json.simple.parser.ParseException;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-
 import com.java.base.SetUp;
-import com.java.dataReader.JsonReader;
 import com.java.utils.Utilities;
 
 	
@@ -73,7 +70,7 @@ public class CoreProductNewsPage extends Utilities {
 		}
 		}
 	
-	public int getVideoFeedsGreaterThanThreeDays() throws IOException, ParseException
+	public int getVideoFeedsGreaterThanThreeDays(String expectedDays) throws IOException, ParseException
 	{
 		for(String time :videoFeedsTime)
 		{
@@ -81,8 +78,6 @@ public class CoreProductNewsPage extends Utilities {
 			{
 				String noOfDays = time.substring(0,1);
 				int days=Integer.parseInt(noOfDays);
-				String expectedDays;
-					expectedDays = JsonReader.getDataFromJson("VideoFeeds","Days");
 					if(days>=Integer.parseInt(expectedDays))
 					{
 						videoFeedsGreaterThanThreeDays++;
@@ -90,7 +85,7 @@ public class CoreProductNewsPage extends Utilities {
 			}
 		}
 		try {
-			LoginReport("Total number of video feeds greater than " + JsonReader.getDataFromJson("VideoFeeds","Days") + " days are " + videoFeedsGreaterThanThreeDays);
+			LoginReport("Total number of video feeds greater than " + expectedDays + " days are " + videoFeedsGreaterThanThreeDays);
 		} catch (Exception e) {
 			
 		}
